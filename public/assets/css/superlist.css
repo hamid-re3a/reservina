@@ -7506,6 +7506,55 @@ h2.widgettitle {
       .widget .menu-advanced li:last-child {
         margin: 0px; }
 
+      .widget ul {
+        display: inline;
+        padding-right: 0px; }
+      .widget .tag {
+        background-color: #c6af5c;
+        border-radius: 3px;
+        color: #fff;
+        display: inline-block;
+        font-weight: 300;
+        margin: 0px 0px 10px 20px;
+        padding: 2px 6px 0px 8px;
+        position: relative;
+        transition: all linear .15s; }
+      .widget .tag a {
+        color: #fff;
+        position: relative;
+        z-index: 2; }
+      .widget .tag a:hover {
+        color: #fff;
+        text-decoration: none; }
+      .widget .tag:before {
+        background-color: #c6af5c;
+        border-radius: 3px;
+        content: "";
+        display: block;
+        height: 16px;
+        left: -7px;
+        position: absolute;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        transition: all linear .15s;
+        width: 17px;
+        margin-top: 1px;
+        z-index: 0; }
+      .widget .tag:after {
+        background-color: #fff;
+        border-radius: 50%;
+        content: "";
+        display: block;
+        height: 5px;
+        left: -2px;
+        position: absolute;
+        top: 8px;
+        width: 5px; }
+      .widget .tag:hover {
+        background-color: #b1983e; }
+      .widget .tag:hover:before {
+        background-color: #b1983e; }
+
 /*------------------------------------------------------------------
 [ 11. Pagination ]
 */
@@ -8906,10 +8955,10 @@ h2.widgettitle {
     padding: 25px 0px 0px 0px; }
 
 .post-meta-author, .post-meta-date, .post-meta-categories, .post-meta-comments {
-  border-right: 1px solid rgba(0, 0, 0, 0.1);
-  float: left;
-  margin: 0px 15px 0px 0px;
-  padding: 0px 15px 0px 0px; }
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  float: right;
+  margin: 0px 0px 0px 15px;
+  padding: 0px 0px 0px 15px; }
   .post-meta-author a, .post-meta-date a, .post-meta-categories a, .post-meta-comments a {
     border-bottom: 1px solid #f7f8f9;
     color: rgba(54, 54, 54, 0.6);
@@ -8937,7 +8986,7 @@ h2.widgettitle {
     display: none; } }
 
 .post-meta-more {
-  float: right; }
+  float: left; }
   .post-meta-more .fa {
     font-size: 10px;
     margin-left: 5px; }

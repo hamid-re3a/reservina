@@ -14,3 +14,19 @@
 Route::get('/', function () {
     return view('index');
 });
+
+Route::get('contact', function () {
+    return view('contact');
+});
+
+Route::get('search', function () {
+    return view('search');
+});
+
+Route::get('shop', function () {
+    return view('shop');
+});
+
+
+Route::get('blog','BlogController@index');
+Route::get('blog-detail','BlogController@show');

@@ -43,19 +43,19 @@
 
                             <ul class="header-nav-primary nav nav-pills collapse navbar-collapse">
                                 <li class="active">
-                                    <a href="#">صفحه اصلی</a>
+                                    <a href="{{url('/')}}">صفحه اصلی</a>
                                 </li>
 
                                 <li >
-                                    <a href="#">وبلاگ</a>
+                                    <a href="{{url('blog')}}">وبلاگ</a>
                                 </li>
 
                                 <li >
-                                    <a href="#">ارتباط با ما</a>
+                                    <a href="{{url('contact')}}">ارتباط با ما</a>
                                 </li>
 
                                 <li >
-                                    <a href="#">جستجوی پیشرفته</a>
+                                    <a href="{{url('search')}}">جستجوی پیشرفته</a>
                                 </li>
 
                             </ul>
