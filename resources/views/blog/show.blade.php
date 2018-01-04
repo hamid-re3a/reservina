@@ -11,11 +11,11 @@
 
                                 <div class="background-white p20">
                                     <ul>
-                                        <li class="tag"><a href="#">Coffee</a></li>
-                                        <li class="tag"><a href="#">Breakfast</a></li>
-                                        <li class="tag"><a href="#">Wine</a></li>
-                                        <li class="tag"><a href="#">Healthy Food</a></li>
-                                        <li class="tag"><a href="#">Raw Food</a></li>
+                                        <li class="tag"><a href="#">لیفت صورت</a></li>
+                                        <li class="tag"><a href="#">پوست</a></li>
+                                        <li class="tag"><a href="#">ابرو</a></li>
+                                        <li class="tag"><a href="#">جوانسازی صورت</a></li>
+                                        <li class="tag"><a href="#">رفع چروک</a></li>
                                     </ul>
                                 </div>
                             </div><!-- /.widget -->
@@ -106,11 +106,11 @@
                                 <div class="post-meta-tags clearfix">
                                     Tags:
                                     <ul>
-                                        <li class="tag"><a href="#">Coffee</a></li>
-                                        <li class="tag"><a href="#">Breakfast</a></li>
-                                        <li class="tag"><a href="#">Wine</a></li>
-                                        <li class="tag"><a href="#">Healthy Food</a></li>
-                                        <li class="tag"><a href="#">Raw Food</a></li>
+                                        <li class="tag"><a href="#">لیفت صورت</a></li>
+                                        <li class="tag"><a href="#">پوست</a></li>
+                                        <li class="tag"><a href="#">ابرو</a></li>
+                                        <li class="tag"><a href="#">جوانسازی صورت</a></li>
+                                        <li class="tag"><a href="#">رفع چروک</a></li>
                                     </ul>
                                 </div><!-- /.post-meta -->
 

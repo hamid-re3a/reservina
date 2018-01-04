@@ -7,17 +7,10 @@
                     <div class="detail-banner" style="background-image: url(assets/img/tmp/detail-banner-1.jpg);">
                         <div class="container">
                             <div class="detail-banner-left">
-                                <div class="detail-banner-info">
-                                    <div class="detail-label">Restaurant</div>
-                                    <div class="detail-verified">Verified</div>
-                                </div><!-- /.detail-banner-info -->
-
-                                <h2 class="detail-title">
-                                    Brazilian Coffe Taste
-                                </h2>
+                                <h2 class="detail-title">لورم ایسام</h2>
 
                                 <div class="detail-banner-address">
-                                    <i class="fa fa-map-o"></i> 347/26 22nd Avenue, New York City, USA
+                                    <i class="fa fa-map-o"></i> لورم ایپسوم یا طرح‌نما به متنی آزمایشی و بی‌معنی
                                 </div><!-- /.detail-banner-address -->
 
                                 <div class="detail-banner-rating">
@@ -29,11 +22,11 @@
                                 </div><!-- /.detail-banner-rating -->
 
                                 <div class="detail-banner-btn bookmark">
-                                    <i class="fa fa-bookmark-o"></i> <span data-toggle="Bookmarked">Bookmark</span>
+                                    <i class="fa fa-bookmark-o"></i> <span data-toggle="Bookmarked">نشان کردن</span>
                                 </div><!-- /.detail-claim -->
 
                                 <div class="detail-banner-btn heart">
-                                    <i class="fa fa-heart-o"></i> <span data-toggle="I Love It">Give Heart</span>
+                                    <i class="fa fa-heart-o"></i> <span data-toggle="I Love It">دنبال کردن</span>
                                 </div><!-- /.detail-claim -->
 
                             </div><!-- /.detail-banner-left -->
@@ -96,7 +89,7 @@
                                 </ul>
                             </div><!-- /.detail-gallery -->
 
-                            <h2>We Are Here</h2>
+                            <h2>ما اینجا هستیم !</h2>
                             <div class="background-white p20">
 
                                 <!-- Nav tabs -->
@@ -141,12 +134,7 @@
                                 </div>
                             </div>
 
-                            <h2>Video</h2>
-                            <div class="detail-video">
-                                <iframe src="https://player.vimeo.com/video/36911719?color=009f8b&amp;byline=0&amp;portrait=0" width="653" height="366" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                            </div><!-- /.detail-video -->
-
-                            <h2 id="reviews">All Reviews</h2>
+                            <h2 id="reviews">نظرات</h2>
                             <div class="reviews">
                                 <div class="review">
                                     <div class="review-image">
@@ -155,14 +143,10 @@
 
                                     <div class="review-inner">
                                         <div class="review-title">
-                                            <h2>Nancy Collins</h2>
-
-                                            <span class="report">
-                    <span class="separator">&#8226;</span><i class="fa fa-flag" title="Report" data-toggle="tooltip" data-placement="top"></i>
-                </span>
+                                            <h2>اسم ناشناس</h2>
 
                                             <div class="review-overall-rating">
-                                                <span class="overall-rating-title">Total Score:</span>
+                                                <span class="overall-rating-title">میزان رای:</span>
                                                 <i class="fa fa-star"></i>
                                                 <i class="fa fa-star"></i>
                                                 <i class="fa fa-star"></i>
@@ -174,16 +158,16 @@
                                         <div class="review-content-wrapper">
                                             <div class="review-content">
                                                 <div class="review-pros">
-                                                    <p>Quisque aliquet ornare nunc in viverra. Nullam ornare molestie ligula in luctus. Suspendisse ac cursus elit. In congue mattis felis, non hendrerit orci dictum id.</p>
+                                                    <p>ورم ایپسوم یا طرح‌نما به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد</p>
                                                 </div><!-- /.pros -->
                                                 <div class="review-cons">
-                                                    <p>Duis et magna vel est tempus vehicula vitae sit amet enim. Sed vitae ligula congue.</p>
+                                                    <p>ورم ایپسوم یا طرح‌نما به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد</p>
                                                 </div><!-- /.cons -->
                                             </div><!-- /.review-content -->
 
                                             <div class="review-rating">
                                                 <dl>
-                                                    <dt>Food</dt>
+                                                    <dt>کیفیت</dt>
                                                     <dd>
                                                         <i class="fa fa-star"></i>
                                                         <i class="fa fa-star"></i>
@@ -191,7 +175,7 @@
                                                         <i class="fa fa-star"></i>
                                                         <i class="fa fa-star"></i>
                                                     </dd>
-                                                    <dt>Staff</dt>
+                                                    <dt>قیمت</dt>
                                                     <dd>
                                                         <i class="fa fa-star"></i>
                                                         <i class="fa fa-star"></i>
@@ -199,168 +183,13 @@
                                                         <i class="fa fa-star"></i>
                                                         <i class="fa fa-star-o"></i>
                                                     </dd>
-                                                    <dt>Value</dt>
+                                                    <dt>زمان بندی</dt>
                                                     <dd>
                                                         <i class="fa fa-star"></i>
                                                         <i class="fa fa-star"></i>
                                                         <i class="fa fa-star"></i>
                                                         <i class="fa fa-star-o"></i>
                                                         <i class="fa fa-star-o"></i>
-                                                    </dd>
-                                                    <dt>Atmosphere</dt>
-                                                    <dd>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star-o"></i>
-                                                        <i class="fa fa-star-o"></i>
-                                                    </dd>
-                                                </dl>
-                                            </div><!-- /.review-rating -->
-                                        </div><!-- /.review-content-wrapper -->
-
-                                    </div><!-- /.review-inner -->
-                                </div><!-- /.review -->
-
-                                <div class="review">
-                                    <div class="review-image">
-                                        <img src="assets/img/tmp/agent-2.jpg" alt="">
-                                    </div><!-- /.review-image -->
-
-                                    <div class="review-inner">
-                                        <div class="review-title">
-                                            <h2>Kim Glove</h2>
-                                            <span class="report">
-                    <span class="separator">&#8226;</span><i class="fa fa-flag" title="Report" data-toggle="tooltip" data-placement="top"></i>
-                </span>
-
-
-                                            <div class="review-overall-rating">
-                                                <span class="overall-rating-title">Total Score:</span>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                                <i class="fa fa-star-o"></i>
-                                                <i class="fa fa-star-o"></i>
-                                            </div><!-- /.review-rating -->
-                                        </div><!-- /.review-title -->
-
-                                        <div class="review-content-wrapper">
-                                            <div class="review-content">
-                                                <div class="review-pros">
-                                                    <p>Quisque aliquet ornare nunc in viverra. Nullam ornare molestie ligula in luctus.</p>
-                                                </div><!-- /.pros -->
-                                                <div class="review-cons">
-                                                    <p>Suspendisse ac cursus elit. In congue mattis felis, non hendrerit orci dictum id. Duis et magna vel est tempus vehicula vitae sit amet enim. Sed vitae ligula congue.</p>
-                                                </div><!-- /.cons -->
-                                            </div><!-- /.review-content -->
-
-                                            <div class="review-rating">
-                                                <dl>
-                                                    <dt>Food</dt>
-                                                    <dd>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star-o"></i>
-                                                    </dd>
-                                                    <dt>Staff</dt>
-                                                    <dd>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star-o"></i>
-                                                        <i class="fa fa-star-o"></i>
-                                                        <i class="fa fa-star-o"></i>
-                                                    </dd>
-                                                    <dt>Value</dt>
-                                                    <dd>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star-o"></i>
-                                                        <i class="fa fa-star-o"></i>
-                                                    </dd>
-                                                    <dt>Atmosphere</dt>
-                                                    <dd>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star-o"></i>
-                                                        <i class="fa fa-star-o"></i>
-                                                        <i class="fa fa-star-o"></i>
-                                                    </dd>
-                                                </dl>
-                                            </div><!-- /.review-rating -->
-                                        </div><!-- /.review-content-wrapper -->
-
-                                    </div><!-- /.review-inner -->
-                                </div><!-- /.review -->
-
-                                <div class="review">
-                                    <div class="review-image">
-                                        <img src="assets/img/tmp/agent-5.jpg" alt="">
-                                    </div><!-- /.review-image -->
-
-                                    <div class="review-inner">
-                                        <div class="review-title">
-                                            <h2>Richard Peterson</h2>
-                                            <span class="report">
-                    <span class="separator">&#8226;</span><i class="fa fa-flag" title="Report" data-toggle="tooltip" data-placement="top"></i>
-                </span>
-
-                                            <div class="review-overall-rating">
-                                                <span class="overall-rating-title">Total Score:</span>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                            </div><!-- /.review-rating -->
-                                        </div><!-- /.review-title -->
-
-                                        <div class="review-content-wrapper">
-                                            <div class="review-content">
-                                                <div class="review-pros">
-                                                    <p>Quisque aliquet ornare nunc in viverra. Nullam ornare molestie ligula in luctus. Suspendisse ac cursus elit. In congue mattis felis, non hendrerit orci dictum id.</p>
-                                                </div><!-- /.pros -->
-                                                <div class="review-cons">
-                                                    <p>Duis et magna vel est tempus vehicula vitae sit amet enim. Sed vitae ligula congue.</p>
-                                                </div><!-- /.cons -->
-                                            </div><!-- /.review-content -->
-
-                                            <div class="review-rating">
-                                                <dl>
-                                                    <dt>Food</dt>
-                                                    <dd>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                    </dd>
-                                                    <dt>Staff</dt>
-                                                    <dd>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star-o"></i>
-                                                    </dd>
-                                                    <dt>Value</dt>
-                                                    <dd>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                    </dd>
-                                                    <dt>Atmosphere</dt>
-                                                    <dd>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
                                                     </dd>
                                                 </dl>
                                             </div><!-- /.review-rating -->
@@ -377,36 +206,15 @@
 
                             <div class="background-white p20">
                                 <div class="detail-overview-hearts">
-                                    <i class="fa fa-heart"></i> <strong>213 </strong>people love it
+                                    <i class="fa fa-heart"></i> <strong>213 </strong>دنبال کننده
                                 </div>
                                 <div class="detail-overview-rating">
-                                    <i class="fa fa-star"></i> <strong>4.3 / 5 </strong>from <a href="#reviews">316 reviews</a>
+                                    <i class="fa fa-star"></i> <strong>4.3 / 5 </strong>از <a href="#reviews">316 رای</a>
                                 </div>
 
-                                <div class="detail-actions row">
-                                    <div class="col-sm-4">
-                                        <div class="btn btn-primary btn-book"><i class="fa fa-shopping-cart"></i> Book Now</div>
-                                    </div><!-- /.col-sm-4 -->
-                                    <div class="col-sm-4">
-                                        <div class="btn btn-secondary btn-share"><i class="fa fa-share-square-o"></i> Share
-                                            <div class="share-wrapper">
-                                                <ul class="share">
-                                                    <li><i class="fa fa-facebook"></i> Facebook</li>
-                                                    <li><i class="fa fa-twitter"></i> Twitter</li>
-                                                    <li><i class="fa fa-google-plus"></i> Google+</li>
-                                                    <li><i class="fa fa-pinterest"></i> Pinterest</li>
-                                                    <li><i class="fa fa-chain"></i> Link</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div><!-- /.col-sm-4 -->
-                                    <div class="col-sm-4">
-                                        <div class="btn btn-secondary btn-claim"><i class="fa fa-hand-peace-o"></i> Claim</div>
-                                    </div><!-- /.col-sm-4 -->
-                                </div><!-- /.detail-actions -->
                             </div>
 
-                            <h2>About <span class="text-secondary">Brazilian Coffe Taste</span></h2>
+                            <h2>درباره آرایشگاه</h2>
                             <div class="background-white p20">
                                 <div class="detail-vcard">
                                     <div class="detail-logo">
@@ -418,27 +226,26 @@
                                             <i class="fa fa-envelope-o"></i> <a href="mailto:#">company@example.com</a>
                                         </div>
                                         <div class="detail-contact-phone">
-                                            <i class="fa fa-mobile-phone"></i> <a href="tel:#">+01-23-456-789</a>
+                                            <i class="fa fa-mobile-phone"></i> <a href="tel:#">974374323</a>
                                         </div>
                                         <div class="detail-contact-website">
                                             <i class="fa fa-globe"></i> <a href="#">www.superlist.com</a>
                                         </div>
                                         <div class="detail-contact-address">
                                             <i class="fa fa-map-o"></i>
-                                            347/26 22nd Avenue<br>
-                                            NYC AZ 85705, USA
+                                            لورم ایپسوم یا طرح‌نما <br>
+                                            به متنی آزمایشی و بی‌
                                         </div>
                                     </div><!-- /.detail-contact -->
                                 </div><!-- /.detail-vcard -->
 
                                 <div class="detail-description">
-                                    <p>Vestibulum a lectus ullamcorper, dapibus ante id, sagittis libero. In tincidunt nisi venenatis, ornare eros at, hendrerit sem. Nunc metus purus, porta a dignissim vel, vulputate sed odio. Aenean est nisi, pulvinar eget velit quis, placerat hendrerit arcu. Vestibulum non dictum nibh.</p>
-                                    <p>In congue mattis felis, non hendrerit orci dictum id. Etiam consequat nulla vitae tempus interdum.Nam gravida convallis lacus, at dignissim urna pulvinar sed.</p>
-                                    <p>Cras ac mi odio. Aliquam erat volutpat. Cras euismod facilisis ligula in tristique. Proin et eleifend lacus, vitae dictum orci</p>
+                                    <p>لورم ایپسوم یا طرح‌نما به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد </p>
+                                    <p>لورم ایپسوم یا طرح‌نما به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد </p>
                                 </div>
 
                                 <div class="detail-follow">
-                                    <h5>Follow Us:</h5>
+                                    <h5>ما را دنبال کنید:</h5>
                                     <div class="follow-wrapper">
                                         <a class="follow-btn facebook" href="#"><i class="fa fa-facebook"></i></a>
                                         <a class="follow-btn youtube" href="#"><i class="fa fa-youtube"></i></a>
@@ -449,151 +256,29 @@
                                 </div><!-- /.detail-follow -->
                             </div>
 
-                            <div class="widget">
-                                <h2 class="widgettitle">Working Hours</h2>
 
-                                <div class="p20 background-white">
-                                    <div class="working-hours">
-                                        <div class="day clearfix">
-                                            <span class="name">Mon</span><span class="hours">07:00 AM - 07:00 PM</span>
-                                        </div><!-- /.day -->
-
-                                        <div class="day clearfix">
-                                            <span class="name">Tue</span><span class="hours">07:00 AM - 07:00 PM</span>
-                                        </div><!-- /.day -->
-
-                                        <div class="day clearfix">
-                                            <span class="name">Wed</span><span class="hours">07:00 AM - 07:00 PM</span>
-                                        </div><!-- /.day -->
-
-                                        <div class="day clearfix">
-                                            <span class="name">Thu</span><span class="hours">07:00 AM - 07:00 PM</span>
-                                        </div><!-- /.day -->
-
-                                        <div class="day clearfix">
-                                            <span class="name">Fri</span><span class="hours">07:00 AM - 07:00 PM</span>
-                                        </div><!-- /.day -->
-
-                                        <div class="day clearfix">
-                                            <span class="name">Sat</span><span class="hours">07:00 AM - 02:00 PM</span>
-                                        </div><!-- /.day -->
-
-                                        <div class="day clearfix">
-                                            <span class="name">Sun</span><span class="hours">Closed</span>
-                                        </div><!-- /.day -->
-                                    </div>
-                                </div>
-                            </div><!-- /.widget -->
-
-
-                            <h2>Amenities</h2>
-
-                            <div class="background-white p20">
-                                <ul class="detail-amenities">
-                                    <li class="yes">WiFi</li>
-                                    <li class="yes">Parking</li>
-                                    <li class="no">Vine</li>
-                                    <li class="yes">Terrace</li>
-                                    <li class="no">Bar</li>
-                                    <li class="yes">Take Away Coffee</li>
-                                    <li class="no">Catering</li>
-                                    <li class="yes">Raw Food</li>
-                                    <li class="no">Delivery</li>
-                                    <li class="yes">No-smoking room</li>
-                                    <li class="no">Reservations</li>
-                                </ul>
-                            </div><!-- /.detail-amenities -->
-
-                            <h2>Enquire Form</h2>
-
-                            <div class="detail-enquire-form background-white p20">
-                                <form method="post" action="http://preview.byaviators.com/template/superlist/listing-detail.html?">
-                                    <div class="form-group">
-                                        <label for="">Name</label>
-                                        <input type="text" class="form-control" name="" id="">
-                                    </div><!-- /.form-group -->
-
-                                    <div class="form-group">
-                                        <label for="">Email <span class="required">*</span></label>
-                                        <input type="email" class="form-control" name="" id="" required>
-                                    </div><!-- /.form-group -->
-
-                                    <div class="form-group">
-                                        <label for="">Message <span class="required">*</span></label>
-                                        <textarea class="form-control" name="" id="" rows="5" required></textarea>
-                                    </div><!-- /.form-group -->
-
-                                    <p>Required fields are marked <span class="required">*</span></p>
-
-                                    <button class="btn btn-primary btn-block" type="submit"><i class="fa fa-paper-plane"></i>Send Message</button>
-                                </form>
-                            </div><!-- /.detail-enquire-form -->
-
-                            <h2>3 Reasons Why Choose Us</h2>
-
-                            <div class="background-white p20 reasons">
-                                <div class="reason">
-                                    <div class="reason-icon">
-                                        <i class="fa fa-trophy"></i>
-                                    </div><!-- /.reason-icon -->
-                                    <div class="reason-content">
-                                        <h4>Coffee House of the Year 2015</h4>
-                                        <p>Fusce at venenatis lorem. Quisque volutpat aliquam leo, a pellentesque orci varius sit amet.</p>
-                                    </div><!-- /.reason-content -->
-                                </div><!-- /.reason -->
-                                <div class="reason">
-                                    <div class="reason-icon">
-                                        <i class="fa fa-coffee"></i>
-                                    </div><!-- /.reason-icon -->
-                                    <div class="reason-content">
-                                        <h4>High Quality Coffee Beans</h4>
-                                        <p>Fusce at venenatis lorem. Quisque volutpat aliquam leo, a pellentesque orci varius sit amet.</p>
-                                    </div><!-- /.reason-content -->
-                                </div><!-- /.reason -->
-                                <div class="reason">
-                                    <div class="reason-icon">
-                                        <i class="fa fa-cutlery"></i>
-                                    </div><!-- /.reason-icon -->
-                                    <div class="reason-content">
-                                        <h4>Snacks & Deserts</h4>
-                                        <p>Fusce at venenatis lorem. Quisque volutpat aliquam leo, a pellentesque orci varius sit amet.</p>
-                                    </div><!-- /.reason-content -->
-                                </div><!-- /.reason -->
-                            </div>
-
-                            <div class="detail-payments">
-                                <h3>Accepted Payments</h3>
-
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-paypal"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-cc-amex"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-cc-mastercard"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-cc-stripe"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-cc-visa"></i></a></li>
-                                </ul>
-                            </div>
                         </div><!-- /.col-sm-5 -->
 
                         <div class="col-sm-12">
-                            <h2>Submit a Review</h2>
+                            <h2>نظر بدهید</h2>
 
                             <form class="background-white p20 add-review" method="post" action="http://preview.byaviators.com/template/superlist/listing-detail.html?">
                                 <div class="row">
                                     <div class="form-group col-sm-6">
-                                        <label for="">Name <span class="required">*</span></label>
+                                        <label for="">نام <span class="required">*</span></label>
                                         <input type="text" class="form-control" id="" required>
                                     </div><!-- /.col-sm-6 -->
 
                                     <div class="form-group col-sm-6">
-                                        <label for="">Email <span class="required">*</span></label>
+                                        <label for="">ایمیل <span class="required">*</span></label>
                                         <input type="email" class="form-control" id="" required>
                                     </div><!-- /.col-sm-6 -->
                                 </div><!-- /.row -->
 
                                 <div class="row">
-                                    <div class="form-group input-rating col-sm-3">
+                                    <div class="form-group input-rating col-sm-3 col-sm-offset-3">
 
-                                        <div class="rating-title">Food</div>
+                                        <div class="rating-title">زمان بندی</div>
 
                                         <input type="radio" value="1" name="food" id="rating-food-1">
                                         <label for="rating-food-1"></label>
@@ -609,7 +294,7 @@
                                     </div><!-- /.col-sm-3 -->
                                     <div class="form-group input-rating col-sm-3">
 
-                                        <div class="rating-title">Staff</div>
+                                        <div class="rating-title">قیمت</div>
 
                                         <input type="radio" value="1" name="staff" id="rating-staff-1">
                                         <label for="rating-staff-1"></label>
@@ -625,7 +310,7 @@
                                     </div><!-- /.col-sm-3 -->
                                     <div class="form-group input-rating col-sm-3">
 
-                                        <div class="rating-title">Value</div>
+                                        <div class="rating-title">کیفیت</div>
 
                                         <input type="radio" value="1" name="value" id="rating-value-1">
                                         <label for="rating-value-1"></label>
@@ -639,39 +324,23 @@
                                         <label for="rating-value-5"></label>
 
                                     </div><!-- /.col-sm-3 -->
-                                    <div class="form-group input-rating col-sm-3">
-
-                                        <div class="rating-title">Atmosphere</div>
-
-                                        <input type="radio" value="1" name="atmosphere" id="rating-atmosphere-1">
-                                        <label for="rating-atmosphere-1"></label>
-                                        <input type="radio" value="2" name="atmosphere" id="rating-atmosphere-2">
-                                        <label for="rating-atmosphere-2"></label>
-                                        <input type="radio" value="3" name="atmosphere" id="rating-atmosphere-3">
-                                        <label for="rating-atmosphere-3"></label>
-                                        <input type="radio" value="4" name="atmosphere" id="rating-atmosphere-4">
-                                        <label for="rating-atmosphere-4"></label>
-                                        <input type="radio" value="5" name="atmosphere" id="rating-atmosphere-5">
-                                        <label for="rating-atmosphere-5"></label>
-
-                                    </div><!-- /.col-sm-3 -->
                                 </div><!-- /.row -->
 
                                 <div class="row">
                                     <div class="form-group col-sm-6">
-                                        <label for="">Pros</label>
+                                        <label for="">معایب</label>
                                         <textarea class="form-control" rows="5" id=""></textarea>
                                     </div><!-- /.col-sm-6 -->
                                     <div class="form-group col-sm-6">
-                                        <label for="">Cons</label>
+                                        <label for="">مزیت</label>
                                         <textarea class="form-control" rows="5" id=""></textarea>
                                     </div><!-- /.col-sm-6 -->
 
                                     <div class="col-sm-8">
-                                        <p>Required fields are marked <span class="required">*</span></p>
+                                        <p><span class="required">*</span> موارد ستاره دار الزامی است</p>
                                     </div><!-- /.col-sm-8 -->
                                     <div class="col-sm-4">
-                                        <button class="btn btn-primary btn-block" type="submit"><i class="fa fa-star"></i>Submit Review</button>
+                                        <button class="btn btn-primary btn-block" type="submit"><i class="fa fa-star"></i> ثبت نظر</button>
                                     </div><!-- /.col-sm-4 -->
                                 </div><!-- /.row -->
                             </form>

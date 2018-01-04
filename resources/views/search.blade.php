@@ -54,7 +54,7 @@
                                 <div class="card-simple" data-background-image="assets/img/tmp/product-1.jpg">
                                     <div class="card-simple-background">
                                         <div class="card-simple-content">
-                                            <h2><a href="{{url('shop')}}">Trip To Paris, France</a></h2>
+                                            <h2><a href="{{url('shop')}}">پیرایش ونیز</a></h2>
                                             <div class="card-simple-rating">
                                                 <i class="fa fa-star"></i>
                                                 <i class="fa fa-star"></i>
@@ -70,9 +70,7 @@
                                             </div><!-- /.card-simple-actions -->
                                         </div><!-- /.card-simple-content -->
 
-                                        <div class="card-simple-label">Vacation</div>
-
-                                        <div class="card-simple-price">$100 / night</div>
+                                        <div class="card-simple-label">مردانه</div>
 
                                     </div><!-- /.card-simple-background -->
                                 </div><!-- /.card-simple -->
@@ -82,7 +80,7 @@
                                 <div class="card-simple" data-background-image="assets/img/tmp/product-2.jpg">
                                     <div class="card-simple-background">
                                         <div class="card-simple-content">
-                                            <h2><a href="{{url('shop')}}">Tasty Brazil Coffee</a></h2>
+                                            <h2><a href="{{url('shop')}}">حمید باربر</a></h2>
                                             <div class="card-simple-rating">
                                                 <i class="fa fa-star"></i>
                                                 <i class="fa fa-star"></i>
@@ -98,7 +96,7 @@
                                             </div><!-- /.card-simple-actions -->
                                         </div><!-- /.card-simple-content -->
 
-                                        <div class="card-simple-label">Coffee</div>
+                                        <div class="card-simple-label">مردانه</div>
 
                                     </div><!-- /.card-simple-background -->
                                 </div><!-- /.card-simple -->
@@ -108,7 +106,7 @@
                                 <div class="card-simple" data-background-image="assets/img/tmp/product-3.jpg">
                                     <div class="card-simple-background">
                                         <div class="card-simple-content">
-                                            <h2><a href="{{url('shop')}}">Healthy Breakfast</a></h2>
+                                            <h2><a href="{{url('shop')}}">پیرایش شجاع</a></h2>
                                             <div class="card-simple-rating">
                                                 <i class="fa fa-star"></i>
                                                 <i class="fa fa-star"></i>
@@ -124,7 +122,7 @@
                                             </div><!-- /.card-simple-actions -->
                                         </div><!-- /.card-simple-content -->
 
-                                        <div class="card-simple-label">Food</div>
+                                        <div class="card-simple-label">زنانه</div>
 
                                         <div class="card-simple-price">$12 / person</div>
 
@@ -136,7 +134,7 @@
                                 <div class="card-simple" data-background-image="assets/img/tmp/product-4.jpg">
                                     <div class="card-simple-background">
                                         <div class="card-simple-content">
-                                            <h2><a href="{{url('shop')}}">Coffee &amp; Newspaper</a></h2>
+                                            <h2><a href="{{url('shop')}}">پیرایش خزر</a></h2>
                                             <div class="card-simple-rating">
                                                 <i class="fa fa-star"></i>
                                                 <i class="fa fa-star"></i>
@@ -152,17 +150,17 @@
                                             </div><!-- /.card-simple-actions -->
                                         </div><!-- /.card-simple-content -->
 
-                                        <div class="card-simple-label">Restaurant</div>
+                                        <div class="card-simple-label">مردانه</div>
 
                                     </div><!-- /.card-simple-background -->
                                 </div><!-- /.card-simple -->
                             </div><!-- /.col-* -->
 
                             <div class="col-sm-6 col-md-4 col-lg-3">
-                                <div class="card-simple" data-background-image="assets/img/tmp/product-5.jpg">
+                                <div class="card-simple" data-background-image="assets/img/tmp/product-1.jpg">
                                     <div class="card-simple-background">
                                         <div class="card-simple-content">
-                                            <h2><a href="{{url('shop')}}">Boat Trip</a></h2>
+                                            <h2><a href="{{url('shop')}}">پیرایش ونیز</a></h2>
                                             <div class="card-simple-rating">
                                                 <i class="fa fa-star"></i>
                                                 <i class="fa fa-star"></i>
@@ -178,17 +176,17 @@
                                             </div><!-- /.card-simple-actions -->
                                         </div><!-- /.card-simple-content -->
 
-                                        <div class="card-simple-label">Vacation</div>
+                                        <div class="card-simple-label">مردانه</div>
 
                                     </div><!-- /.card-simple-background -->
                                 </div><!-- /.card-simple -->
                             </div><!-- /.col-* -->
 
                             <div class="col-sm-6 col-md-4 col-lg-3">
-                                <div class="card-simple" data-background-image="assets/img/tmp/product-6.jpg">
+                                <div class="card-simple" data-background-image="assets/img/tmp/product-2.jpg">
                                     <div class="card-simple-background">
                                         <div class="card-simple-content">
-                                            <h2><a href="{{url('shop')}}">Italian Restaurant</a></h2>
+                                            <h2><a href="{{url('shop')}}">حمید باربر</a></h2>
                                             <div class="card-simple-rating">
                                                 <i class="fa fa-star"></i>
                                                 <i class="fa fa-star"></i>
@@ -204,19 +202,17 @@
                                             </div><!-- /.card-simple-actions -->
                                         </div><!-- /.card-simple-content -->
 
-                                        <div class="card-simple-label">Restaurant</div>
-
-                                        <div class="card-simple-price">$28 / person</div>
+                                        <div class="card-simple-label">مردانه</div>
 
                                     </div><!-- /.card-simple-background -->
                                 </div><!-- /.card-simple -->
                             </div><!-- /.col-* -->
 
                             <div class="col-sm-6 col-md-4 col-lg-3">
-                                <div class="card-simple" data-background-image="assets/img/tmp/product-7.jpg">
+                                <div class="card-simple" data-background-image="assets/img/tmp/product-3.jpg">
                                     <div class="card-simple-background">
                                         <div class="card-simple-content">
-                                            <h2><a href="{{url('shop')}}">Best Brazil Coffee</a></h2>
+                                            <h2><a href="{{url('shop')}}">پیرایش شجاع</a></h2>
                                             <div class="card-simple-rating">
                                                 <i class="fa fa-star"></i>
                                                 <i class="fa fa-star"></i>
@@ -232,17 +228,19 @@
                                             </div><!-- /.card-simple-actions -->
                                         </div><!-- /.card-simple-content -->
 
-                                        <div class="card-simple-label">Pub</div>
+                                        <div class="card-simple-label">زنانه</div>
+
+                                        <div class="card-simple-price">$12 / person</div>
 
                                     </div><!-- /.card-simple-background -->
                                 </div><!-- /.card-simple -->
                             </div><!-- /.col-* -->
 
                             <div class="col-sm-6 col-md-4 col-lg-3">
-                                <div class="card-simple" data-background-image="assets/img/tmp/product-8.jpg">
+                                <div class="card-simple" data-background-image="assets/img/tmp/product-4.jpg">
                                     <div class="card-simple-background">
                                         <div class="card-simple-content">
-                                            <h2><a href="{{url('shop')}}">Retro Shop</a></h2>
+                                            <h2><a href="{{url('shop')}}">پیرایش خزر</a></h2>
                                             <div class="card-simple-rating">
                                                 <i class="fa fa-star"></i>
                                                 <i class="fa fa-star"></i>
@@ -258,19 +256,17 @@
                                             </div><!-- /.card-simple-actions -->
                                         </div><!-- /.card-simple-content -->
 
-                                        <div class="card-simple-label">Shop</div>
-
-                                        <div class="card-simple-price">$3 / cup</div>
+                                        <div class="card-simple-label">مردانه</div>
 
                                     </div><!-- /.card-simple-background -->
                                 </div><!-- /.card-simple -->
                             </div><!-- /.col-* -->
 
                             <div class="col-sm-6 col-md-4 col-lg-3">
-                                <div class="card-simple" data-background-image="assets/img/tmp/product-9.jpg">
+                                <div class="card-simple" data-background-image="assets/img/tmp/product-1.jpg">
                                     <div class="card-simple-background">
                                         <div class="card-simple-content">
-                                            <h2><a href="{{url('shop')}}">Wine Tasting</a></h2>
+                                            <h2><a href="{{url('shop')}}">پیرایش ونیز</a></h2>
                                             <div class="card-simple-rating">
                                                 <i class="fa fa-star"></i>
                                                 <i class="fa fa-star"></i>
@@ -286,19 +282,17 @@
                                             </div><!-- /.card-simple-actions -->
                                         </div><!-- /.card-simple-content -->
 
-                                        <div class="card-simple-label">Event</div>
-
-                                        <div class="card-simple-price">$13 / ticket</div>
+                                        <div class="card-simple-label">مردانه</div>
 
                                     </div><!-- /.card-simple-background -->
                                 </div><!-- /.card-simple -->
                             </div><!-- /.col-* -->
 
                             <div class="col-sm-6 col-md-4 col-lg-3">
-                                <div class="card-simple" data-background-image="assets/img/tmp/product-10.jpg">
+                                <div class="card-simple" data-background-image="assets/img/tmp/product-2.jpg">
                                     <div class="card-simple-background">
                                         <div class="card-simple-content">
-                                            <h2><a href="{{url('shop')}}">Affordable Office</a></h2>
+                                            <h2><a href="{{url('shop')}}">حمید باربر</a></h2>
                                             <div class="card-simple-rating">
                                                 <i class="fa fa-star"></i>
                                                 <i class="fa fa-star"></i>
@@ -314,17 +308,17 @@
                                             </div><!-- /.card-simple-actions -->
                                         </div><!-- /.card-simple-content -->
 
-                                        <div class="card-simple-label">Coworking</div>
+                                        <div class="card-simple-label">مردانه</div>
 
                                     </div><!-- /.card-simple-background -->
                                 </div><!-- /.card-simple -->
                             </div><!-- /.col-* -->
 
                             <div class="col-sm-6 col-md-4 col-lg-3">
-                                <div class="card-simple" data-background-image="assets/img/tmp/product-11.jpg">
+                                <div class="card-simple" data-background-image="assets/img/tmp/product-3.jpg">
                                     <div class="card-simple-background">
                                         <div class="card-simple-content">
-                                            <h2><a href="{{url('shop')}}">Quick Breakfast</a></h2>
+                                            <h2><a href="{{url('shop')}}">پیرایش شجاع</a></h2>
                                             <div class="card-simple-rating">
                                                 <i class="fa fa-star"></i>
                                                 <i class="fa fa-star"></i>
@@ -340,19 +334,19 @@
                                             </div><!-- /.card-simple-actions -->
                                         </div><!-- /.card-simple-content -->
 
-                                        <div class="card-simple-label">Food</div>
+                                        <div class="card-simple-label">زنانه</div>
 
-                                        <div class="card-simple-price">$8 / person</div>
+                                        <div class="card-simple-price">$12 / person</div>
 
                                     </div><!-- /.card-simple-background -->
                                 </div><!-- /.card-simple -->
                             </div><!-- /.col-* -->
 
                             <div class="col-sm-6 col-md-4 col-lg-3">
-                                <div class="card-simple" data-background-image="assets/img/tmp/product-12.jpg">
+                                <div class="card-simple" data-background-image="assets/img/tmp/product-4.jpg">
                                     <div class="card-simple-background">
                                         <div class="card-simple-content">
-                                            <h2><a href="{{url('shop')}}">Monumental City</a></h2>
+                                            <h2><a href="{{url('shop')}}">پیرایش خزر</a></h2>
                                             <div class="card-simple-rating">
                                                 <i class="fa fa-star"></i>
                                                 <i class="fa fa-star"></i>
@@ -368,7 +362,7 @@
                                             </div><!-- /.card-simple-actions -->
                                         </div><!-- /.card-simple-content -->
 
-                                        <div class="card-simple-label">Landmark</div>
+                                        <div class="card-simple-label">مردانه</div>
 
                                     </div><!-- /.card-simple-background -->
                                 </div><!-- /.card-simple -->
@@ -380,11 +374,11 @@
 
                     <div class="pager">
                         <ul>
-                            <li><a href="#">Prev</a></li>
+                            <li><a href="#">قبلی</a></li>
                             <li><a href="#">5</a></li>
                             <li class="active"><a>6</a></li>
                             <li><a href="#">7</a></li>
-                            <li><a href="#">Next</a></li>
+                            <li><a href="#">بعدی</a></li>
                         </ul>
                     </div><!-- /.pagination -->
 

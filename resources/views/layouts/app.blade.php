@@ -33,8 +33,8 @@
                         <div class="header-top">
 
                             <ul class="header-nav-secondary nav nav-pills">
-                                <li><a href="login.html">ورود</a></li>
-                                <li><a href="register.html">ثبت نام</a></li>
+                                <li><a href="{{url('login')}}">ورود</a></li>
+                                <li><a href="{{url('register')}}">ثبت نام</a></li>
                             </ul>
                         </div><!-- /.header-top -->
 
@@ -60,7 +60,7 @@
 
                             </ul>
 
-                            <div class="header-search">
+                            <div class="hero-image-keyword header-search">
                                 <input type="text" class="form-control" placeholder="جستجو مشاغل">
                             </div><!-- /.header-search -->
 
@@ -106,30 +106,39 @@
                         <div class="thumbs-gallery">
                             <a class="thumbBox" rel="lightbox-thumbs" href="assets/img/thumbsgallery/image01.jpg">
                                 <img src="assets/img/thumbsgallery/thumbs/image01.jpg" alt="image1.jpg">
+                                <i style="opacity: 0;"></i>
                             </a>
                             <a class="thumbBox" rel="lightbox-thumbs" href="assets/img/thumbsgallery/image02.jpg">
                                 <img src="assets/img/thumbsgallery/thumbs/image02.jpg" alt="image2.jpg">
+                                <i style="opacity: 0;"></i>
                             </a>
                             <a class="thumbBox" rel="lightbox-thumbs" href="assets/img/thumbsgallery/image03.jpg">
                                 <img src="assets/img/thumbsgallery/thumbs/image03.jpg" alt="image3.jpg">
+                                <i style="opacity: 0;"></i>
                             </a>
                             <a class="thumbBox" rel="lightbox-thumbs" href="assets/img/thumbsgallery/image04.jpg">
                                 <img src="assets/img/thumbsgallery/thumbs/image04.jpg" alt="image4.jpg">
+                                <i style="opacity: 0;"></i>
                             </a>
                             <a class="thumbBox" rel="lightbox-thumbs" href="assets/img/thumbsgallery/image04.jpg">
                                 <img src="assets/img/thumbsgallery/thumbs/image05.jpg" alt="image5.jpg">
+                                <i style="opacity: 0;"></i>
                             </a>
                             <a class="thumbBox" rel="lightbox-thumbs" href="assets/img/thumbsgallery/image06.jpg">
                                 <img src="assets/img/thumbsgallery/thumbs/image06.jpg" alt="image6.jpg">
+                                <i style="opacity: 0;"></i>
                             </a>
                             <a class="thumbBox" rel="lightbox-thumbs" href="assets/img/thumbsgallery/image07.jpg">
                                 <img src="assets/img/thumbsgallery/thumbs/image07.jpg" alt="image7.jpg">
+                                <i style="opacity: 0;"></i>
                             </a>
                             <a class="thumbBox" rel="lightbox-thumbs" href="assets/img/thumbsgallery/image08.jpg">
                                 <img src="assets/img/thumbsgallery/thumbs/image08.jpg" alt="image8.jpg">
+                                <i style="opacity: 0;"></i>
                             </a>
                             <a class="thumbBox" rel="lightbox-thumbs" href="assets/img/thumbsgallery/image09.jpg">
                                 <img src="assets/img/thumbsgallery/thumbs/image09.jpg" alt="image9.jpg">
+                                <i style="opacity: 0;"></i>
                             </a>
                         </div>
                         <div class="clearfix"></div>
@@ -163,9 +172,9 @@
                         <h2>رزروینا</h2>
                         
                         <ul class="faq-list">
-                            <li><a href="#">چطور استفاده کنم؟</a></li>
-                            <li><a href="#">چطور از رزروها مطمئن باشم؟</a></li>
-                            <li><a href="#">آرایشگاهتان را به کاربران نشان دهید.</a></li>
+                            <li><a href="{{url('faq')}}">چطور استفاده کنم؟</a></li>
+                            <li><a href="{{url('faq')}}">چطور از رزروها مطمئن باشم؟</a></li>
+                            <li><a href="{{url('faq')}}">آرایشگاهتان را به کاربران نشان دهید.</a></li>
                         </ul>
                         
                     </div><!-- /.col-* -->
@@ -181,10 +190,10 @@
 
                 <div class="footer-bottom-right">
                     <ul class="nav nav-pills">
-                        <li><a href="index-2.html">خانه</a></li>
-                        <li><a href="pricing.html">وبلاگ</a></li>
-                        <li><a href="terms-conditions.html">ارتباط با ما</a></li>
-                        <li><a href="contact-1.html">سوالات متداول</a></li>
+                        <li><a href="{{url('/')}}">خانه</a></li>
+                        <li><a href="{{url('blog')}}">وبلاگ</a></li>
+                        <li><a href="{{url('contact')}}">ارتباط با ما</a></li>
+                        <li><a href="{{url('faq')}}">سوالات متداول</a></li>
                     </ul><!-- /.nav -->
                 </div><!-- /.footer-bottom-right -->
             </div><!-- /.container -->

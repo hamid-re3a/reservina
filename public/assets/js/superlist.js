@@ -285,4 +285,47 @@ $(document).ready(function() {
         overwriteInitial: true,
         initialCaption: "Your Uploaded Images"
     });
+
+    // thumbs animations
+    $(function () {
+
+        $(".thumbs-gallery i").animate({
+            opacity: 0
+
+        }, {
+            duration: 300,
+            queue: false
+        });
+
+        $(".thumbs-gallery").parent().hover(
+            function () {},
+            function () {
+                $(".thumbs-gallery i").animate({
+                    opacity: 0
+                }, {
+                    duration: 300,
+                    queue: false
+                });
+            });
+
+        $(".thumbs-gallery i").hover(
+            function () {
+                $(this).animate({
+                    opacity: 0
+
+                }, {
+                    duration: 300,
+                    queue: false
+                });
+
+                $(".thumbs-gallery i").not( $(this) ).animate({
+                    opacity: 0.4         }, {
+                    duration: 300,
+                    queue: false
+                });
+            }, function () {
+            }
+        );
+
+    });
 });

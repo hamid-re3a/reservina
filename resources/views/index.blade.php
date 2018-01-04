@@ -17,7 +17,7 @@
 
                                     <p>لورم ایپسوم یا طرح‌نما به متنی آزمایشی و بی‌معنی در صنعت چاپ، <br> صفحه‌آرایی و طراحی گرافیک گفته می‌شود.</p>
 
-                                    <a href="listing-submit.html" class="btn btn-secondary btn-lg">ثبت آرایشگاه</a>
+                                    <a href="{{url('register-business')}}" class="btn btn-secondary btn-lg">ثبت آرایشگاه</a>
                                 </div><!-- /.container -->
                             </div><!-- /.hero-image-content -->
 
