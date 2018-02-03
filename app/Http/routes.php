@@ -23,13 +23,8 @@ Route::get('faq', function () {
     return view('faq');
 });
 
-Route::get('search', function () {
-    return view('search');
-});
-
-Route::get('shop', function () {
-    return view('shop');
-});
+Route::get('search','ShopController@index');
+Route::get('shop/{id}','ShopController@show');
 
 Route::get('login', function () {
     return view('login');
@@ -43,5 +38,5 @@ Route::get('register-business', function () {
     return view('register-business');
 });
 
-Route::get('blog','BlogController@index');
-Route::get('blog-detail','BlogController@show');
+Route::get('blog','ArticleController@index');
+Route::get('blog/post/{id}','ArticleController@show');

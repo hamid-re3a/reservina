@@ -4,13 +4,13 @@
         <div class="main-inner">
             <div class="content">
                 <div class="mt-80 mb80">
-                    <div class="detail-banner" style="background-image: url(assets/img/tmp/detail-banner-1.jpg);">
+                    <div class="detail-banner" style="background-image: url(/assets/img/tmp/slider-large-4.jpg);">
                         <div class="container">
                             <div class="detail-banner-left">
-                                <h2 class="detail-title">لورم ایسام</h2>
+                                <h2 class="detail-title">{{$shop->alias}}</h2>
 
                                 <div class="detail-banner-address">
-                                    <i class="fa fa-map-o"></i> لورم ایپسوم یا طرح‌نما به متنی آزمایشی و بی‌معنی
+                                    <i class="fa fa-map-o"></i> {{$shop->work_address}}
                                 </div><!-- /.detail-banner-address -->
 
                                 <div class="detail-banner-rating">
@@ -40,50 +40,50 @@
                         <div class="col-sm-7">
                             <div class="detail-gallery">
                                 <div class="detail-gallery-preview">
-                                    <a href="assets/img/tmp/gallery-1.jpg">
-                                        <img src="assets/img/tmp/gallery-1.jpg">
+                                    <a href="/assets/img/tmp/gallery-1.jpg">
+                                        <img src="/assets/img/tmp/gallery-1.jpg">
                                     </a>
                                 </div>
 
                                 <ul class="detail-gallery-index">
                                     <li class="detail-gallery-list-item active">
-                                        <a data-target="assets/img/tmp/gallery-1.jpg">
-                                            <img src="assets/img/tmp/gallery-1.jpg" alt="...">
+                                        <a data-target="/assets/img/tmp/gallery-1.jpg">
+                                            <img src="/assets/img/tmp/gallery-1.jpg" alt="...">
                                         </a>
                                     </li>
                                     <li class="detail-gallery-list-item active">
-                                        <a data-target="assets/img/tmp/gallery-2.jpg">
-                                            <img src="assets/img/tmp/gallery-2.jpg" alt="...">
+                                        <a data-target="/assets/img/tmp/gallery-2.jpg">
+                                            <img src="/assets/img/tmp/gallery-2.jpg" alt="...">
                                         </a>
                                     </li>
                                     <li class="detail-gallery-list-item active">
                                         <a data-target="assets/img/tmp/gallery-3.jpg">
-                                            <img src="assets/img/tmp/gallery-3.jpg" alt="...">
+                                            <img src="/assets/img/tmp/gallery-3.jpg" alt="...">
                                         </a>
                                     </li>
                                     <li class="detail-gallery-list-item active">
-                                        <a data-target="assets/img/tmp/gallery-4.jpg">
-                                            <img src="assets/img/tmp/gallery-4.jpg" alt="...">
+                                        <a data-target="/assets/img/tmp/gallery-4.jpg">
+                                            <img src="/assets/img/tmp/gallery-4.jpg" alt="...">
                                         </a>
                                     </li>
                                     <li class="detail-gallery-list-item active">
-                                        <a data-target="assets/img/tmp/gallery-5.jpg">
-                                            <img src="assets/img/tmp/gallery-5.jpg" alt="...">
+                                        <a data-target="/assets/img/tmp/gallery-5.jpg">
+                                            <img src="/assets/img/tmp/gallery-5.jpg" alt="...">
                                         </a>
                                     </li>
                                     <li class="detail-gallery-list-item active">
-                                        <a data-target="assets/img/tmp/gallery-6.jpg">
-                                            <img src="assets/img/tmp/gallery-6.jpg" alt="...">
+                                        <a data-target="/assets/img/tmp/gallery-6.jpg">
+                                            <img src="/assets/img/tmp/gallery-6.jpg" alt="...">
                                         </a>
                                     </li>
                                     <li class="detail-gallery-list-item active">
-                                        <a data-target="assets/img/tmp/gallery-7.jpg">
-                                            <img src="assets/img/tmp/gallery-7.jpg" alt="...">
+                                        <a data-target="/assets/img/tmp/gallery-7.jpg">
+                                            <img src="/assets/img/tmp/gallery-7.jpg" alt="...">
                                         </a>
                                     </li>
                                     <li class="detail-gallery-list-item active">
-                                        <a data-target="assets/img/tmp/gallery-8.jpg">
-                                            <img src="assets/img/tmp/gallery-8.jpg" alt="...">
+                                        <a data-target="/assets/img/tmp/gallery-8.jpg">
+                                            <img src="/assets/img/tmp/gallery-8.jpg" alt="...">
                                         </a>
                                     </li>
                                 </ul>
@@ -218,30 +218,29 @@
                             <div class="background-white p20">
                                 <div class="detail-vcard">
                                     <div class="detail-logo">
-                                        <img src="assets/img/tmp/pragmaticmates-logo.png">
+                                        <img src="/assets/img/tmp/pragmaticmates-logo.png">
                                     </div><!-- /.detail-logo -->
 
                                     <div class="detail-contact">
                                         <div class="detail-contact-email">
-                                            <i class="fa fa-envelope-o"></i> <a href="mailto:#">company@example.com</a>
+                                            <i class="fa fa-envelope-o"></i> <a href="mailto:#">{{$shop->work_mail}}‌</a>
                                         </div>
                                         <div class="detail-contact-phone">
-                                            <i class="fa fa-mobile-phone"></i> <a href="tel:#">974374323</a>
+                                            <i class="fa fa-mobile-phone"></i> <a href="tel:#">{{$shop->cell_phone}}‌</a>
                                         </div>
                                         <div class="detail-contact-website">
-                                            <i class="fa fa-globe"></i> <a href="#">www.superlist.com</a>
+                                            <i class="fa fa-globe"></i> <a href="#">{{$shop->website}}‌</a>
                                         </div>
                                         <div class="detail-contact-address">
                                             <i class="fa fa-map-o"></i>
-                                            لورم ایپسوم یا طرح‌نما <br>
-                                            به متنی آزمایشی و بی‌
+                                            <br>
+                                            {{$shop->work_address}}‌
                                         </div>
                                     </div><!-- /.detail-contact -->
                                 </div><!-- /.detail-vcard -->
 
                                 <div class="detail-description">
-                                    <p>لورم ایپسوم یا طرح‌نما به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد </p>
-                                    <p>لورم ایپسوم یا طرح‌نما به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد </p>
+                                    <p>{{$shop->work_desc}}</p>
                                 </div>
 
                                 <div class="detail-follow">

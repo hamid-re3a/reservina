@@ -7,14 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 
     <link href="http://fonts.googleapis.com/css?family=Nunito:300,400,700" rel="stylesheet" type="text/css">
-    <link href="assets/libraries/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="assets/libraries/owl.carousel/assets/owl.carousel.css" rel="stylesheet" type="text/css" >
-    <link href="assets/libraries/colorbox/example1/colorbox.css" rel="stylesheet" type="text/css" >
-    <link href="assets/libraries/bootstrap-select/bootstrap-select.min.css" rel="stylesheet" type="text/css">
-    <link href="assets/libraries/bootstrap-fileinput/fileinput.min.css" rel="stylesheet" type="text/css">
-    <link href="assets/css/superlist.css" rel="stylesheet" type="text/css" >
+    <link href="/assets/libraries/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="/assets/libraries/owl.carousel/assets/owl.carousel.css" rel="stylesheet" type="text/css" >
+    <link href="/assets/libraries/colorbox/example1/colorbox.css" rel="stylesheet" type="text/css" >
+    <link href="/assets/libraries/bootstrap-select/bootstrap-select.min.css" rel="stylesheet" type="text/css">
+    <link href="/assets/libraries/bootstrap-fileinput/fileinput.min.css" rel="stylesheet" type="text/css">
+    <link href="/assets/css/superlist.css" rel="stylesheet" type="text/css" >
 
-    <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.png">
 
     <title>رزروینا - سیستم مدیریت رزرو آنلاین</title>
 </head>
@@ -76,7 +76,7 @@
 
                     <div class="header-logo">
                         <a href="index-2.html">
-                            <img src="assets/img/logo.png" alt="Logo">
+                            <img src="/assets/img/logo.png" alt="Logo">
 
                         </a>
                     </div><!-- /.header-logo -->
@@ -104,40 +104,40 @@
                         <h2>پر بازدیدترین ها</h2>
 
                         <div class="thumbs-gallery">
-                            <a class="thumbBox" rel="lightbox-thumbs" href="assets/img/thumbsgallery/image01.jpg">
-                                <img src="assets/img/thumbsgallery/thumbs/image01.jpg" alt="image1.jpg">
+                            <a class="thumbBox" rel="lightbox-thumbs" href="/assets/img/thumbsgallery/image01.jpg">
+                                <img src="/assets/img/thumbsgallery/thumbs/image01.jpg" alt="image1.jpg">
                                 <i style="opacity: 0;"></i>
                             </a>
-                            <a class="thumbBox" rel="lightbox-thumbs" href="assets/img/thumbsgallery/image02.jpg">
-                                <img src="assets/img/thumbsgallery/thumbs/image02.jpg" alt="image2.jpg">
+                            <a class="thumbBox" rel="lightbox-thumbs" href="/assets/img/thumbsgallery/image02.jpg">
+                                <img src="/assets/img/thumbsgallery/thumbs/image02.jpg" alt="image2.jpg">
                                 <i style="opacity: 0;"></i>
                             </a>
-                            <a class="thumbBox" rel="lightbox-thumbs" href="assets/img/thumbsgallery/image03.jpg">
-                                <img src="assets/img/thumbsgallery/thumbs/image03.jpg" alt="image3.jpg">
+                            <a class="thumbBox" rel="lightbox-thumbs" href="/assets/img/thumbsgallery/image03.jpg">
+                                <img src="/assets/img/thumbsgallery/thumbs/image03.jpg" alt="image3.jpg">
                                 <i style="opacity: 0;"></i>
                             </a>
-                            <a class="thumbBox" rel="lightbox-thumbs" href="assets/img/thumbsgallery/image04.jpg">
-                                <img src="assets/img/thumbsgallery/thumbs/image04.jpg" alt="image4.jpg">
+                            <a class="thumbBox" rel="lightbox-thumbs" href="/assets/img/thumbsgallery/image04.jpg">
+                                <img src="/assets/img/thumbsgallery/thumbs/image04.jpg" alt="image4.jpg">
                                 <i style="opacity: 0;"></i>
                             </a>
-                            <a class="thumbBox" rel="lightbox-thumbs" href="assets/img/thumbsgallery/image04.jpg">
-                                <img src="assets/img/thumbsgallery/thumbs/image05.jpg" alt="image5.jpg">
+                            <a class="thumbBox" rel="lightbox-thumbs" href="/assets/img/thumbsgallery/image04.jpg">
+                                <img src="/assets/img/thumbsgallery/thumbs/image05.jpg" alt="image5.jpg">
                                 <i style="opacity: 0;"></i>
                             </a>
-                            <a class="thumbBox" rel="lightbox-thumbs" href="assets/img/thumbsgallery/image06.jpg">
-                                <img src="assets/img/thumbsgallery/thumbs/image06.jpg" alt="image6.jpg">
+                            <a class="thumbBox" rel="lightbox-thumbs" href="/assets/img/thumbsgallery/image06.jpg">
+                                <img src="/assets/img/thumbsgallery/thumbs/image06.jpg" alt="image6.jpg">
                                 <i style="opacity: 0;"></i>
                             </a>
-                            <a class="thumbBox" rel="lightbox-thumbs" href="assets/img/thumbsgallery/image07.jpg">
-                                <img src="assets/img/thumbsgallery/thumbs/image07.jpg" alt="image7.jpg">
+                            <a class="thumbBox" rel="lightbox-thumbs" href="/assets/img/thumbsgallery/image07.jpg">
+                                <img src="/assets/img/thumbsgallery/thumbs/image07.jpg" alt="image7.jpg">
                                 <i style="opacity: 0;"></i>
                             </a>
-                            <a class="thumbBox" rel="lightbox-thumbs" href="assets/img/thumbsgallery/image08.jpg">
-                                <img src="assets/img/thumbsgallery/thumbs/image08.jpg" alt="image8.jpg">
+                            <a class="thumbBox" rel="lightbox-thumbs" href="/assets/img/thumbsgallery/image08.jpg">
+                                <img src="/assets/img/thumbsgallery/thumbs/image08.jpg" alt="image8.jpg">
                                 <i style="opacity: 0;"></i>
                             </a>
-                            <a class="thumbBox" rel="lightbox-thumbs" href="assets/img/thumbsgallery/image09.jpg">
-                                <img src="assets/img/thumbsgallery/thumbs/image09.jpg" alt="image9.jpg">
+                            <a class="thumbBox" rel="lightbox-thumbs" href="/assets/img/thumbsgallery/image09.jpg">
+                                <img src="/assets/img/thumbsgallery/thumbs/image09.jpg" alt="image9.jpg">
                                 <i style="opacity: 0;"></i>
                             </a>
                         </div>
@@ -202,34 +202,34 @@
 
 </div><!-- /.page-wrapper -->
 
-<script src="assets/js/jquery.js" type="text/javascript"></script>
-<script src="assets/js/map.js" type="text/javascript"></script>
+<script src="/assets/js/jquery.js" type="text/javascript"></script>
+<script src="/assets/js/map.js" type="text/javascript"></script>
 
-<script src="assets/libraries/bootstrap-sass/javascripts/bootstrap/collapse.js" type="text/javascript"></script>
-<script src="assets/libraries/bootstrap-sass/javascripts/bootstrap/carousel.js" type="text/javascript"></script>
-<script src="assets/libraries/bootstrap-sass/javascripts/bootstrap/transition.js" type="text/javascript"></script>
-<script src="assets/libraries/bootstrap-sass/javascripts/bootstrap/dropdown.js" type="text/javascript"></script>
-<script src="assets/libraries/bootstrap-sass/javascripts/bootstrap/tooltip.js" type="text/javascript"></script>
-<script src="assets/libraries/bootstrap-sass/javascripts/bootstrap/tab.js" type="text/javascript"></script>
-<script src="assets/libraries/bootstrap-sass/javascripts/bootstrap/alert.js" type="text/javascript"></script>
+<script src="/assets/libraries/bootstrap-sass/javascripts/bootstrap/collapse.js" type="text/javascript"></script>
+<script src="/assets/libraries/bootstrap-sass/javascripts/bootstrap/carousel.js" type="text/javascript"></script>
+<script src="/assets/libraries/bootstrap-sass/javascripts/bootstrap/transition.js" type="text/javascript"></script>
+<script src="/assets/libraries/bootstrap-sass/javascripts/bootstrap/dropdown.js" type="text/javascript"></script>
+<script src="/assets/libraries/bootstrap-sass/javascripts/bootstrap/tooltip.js" type="text/javascript"></script>
+<script src="/assets/libraries/bootstrap-sass/javascripts/bootstrap/tab.js" type="text/javascript"></script>
+<script src="/assets/libraries/bootstrap-sass/javascripts/bootstrap/alert.js" type="text/javascript"></script>
 
-<script src="assets/libraries/colorbox/jquery.colorbox-min.js" type="text/javascript"></script>
+<script src="/assets/libraries/colorbox/jquery.colorbox-min.js" type="text/javascript"></script>
 
-<script src="assets/libraries/flot/jquery.flot.min.js" type="text/javascript"></script>
-<script src="assets/libraries/flot/jquery.flot.spline.js" type="text/javascript"></script>
+<script src="/assets/libraries/flot/jquery.flot.min.js" type="text/javascript"></script>
+<script src="/assets/libraries/flot/jquery.flot.spline.js" type="text/javascript"></script>
 
-<script src="assets/libraries/bootstrap-select/bootstrap-select.min.js" type="text/javascript"></script>
+<script src="/assets/libraries/bootstrap-select/bootstrap-select.min.js" type="text/javascript"></script>
 
 <script src="http://maps.googleapis.com/maps/api/js?libraries=weather,geometry,visualization,places,drawing" type="text/javascript"></script>
 
-<script type="text/javascript" src="assets/libraries/jquery-google-map/infobox.js"></script>
-<script type="text/javascript" src="assets/libraries/jquery-google-map/markerclusterer.js"></script>
-<script type="text/javascript" src="assets/libraries/jquery-google-map/jquery-google-map.js"></script>
+<script type="text/javascript" src="/assets/libraries/jquery-google-map/infobox.js"></script>
+<script type="text/javascript" src="/assets/libraries/jquery-google-map/markerclusterer.js"></script>
+<script type="text/javascript" src="/assets/libraries/jquery-google-map/jquery-google-map.js"></script>
 
-<script type="text/javascript" src="assets/libraries/owl.carousel/owl.carousel.js"></script>
-<script type="text/javascript" src="assets/libraries/bootstrap-fileinput/fileinput.min.js"></script>
+<script type="text/javascript" src="/assets/libraries/owl.carousel/owl.carousel.js"></script>
+<script type="text/javascript" src="/assets/libraries/bootstrap-fileinput/fileinput.min.js"></script>
 
-<script src="assets/js/superlist.js" type="text/javascript"></script>
+<script src="/assets/js/superlist.js" type="text/javascript"></script>
 
 </body>
 </html>

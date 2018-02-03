@@ -36,7 +36,7 @@ $(document).ready(function() {
     }
 
     for (var i=0; i < 50; i++) {
-        var position = get_gps_ranges(40.761077, -73.983307, 0.08, 0.60);
+        var position = get_gps_ranges(40.761077, 73.983307, 0.08, 0.60);
         var icon = icons[Math.floor(Math.random()*icons.length)];
 
         markers.push({
