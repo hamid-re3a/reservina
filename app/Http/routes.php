@@ -23,20 +23,14 @@ Route::get('faq', function () {
     return view('faq');
 });
 
+Route::get('login','AuthController@showLoginForm');
+Route::post('login','AuthController@login');
+Route::get('register','AuthController@showRegistrationForm');
+Route::post('register','AuthController@register');
+Route::get('register-business','AuthController@registerBusiness');
+
 Route::get('search','ShopController@index');
 Route::get('shop/{id}','ShopController@show');
-
-Route::get('login', function () {
-    return view('login');
-});
-
-Route::get('register', function () {
-    return view('register');
-});
-
-Route::get('register-business', function () {
-    return view('register-business');
-});
 
 Route::get('blog','ArticleController@index');
 Route::get('blog/post/{id}','ArticleController@show');

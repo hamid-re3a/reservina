@@ -7,47 +7,20 @@
 
                     <div class="row">
                         <div class="col-sm-8 col-sm-offset-2">
-                            <div class="page-title">
-                                <h1>وارد شوید</h1>
-                            </div><!-- /.page-title -->
-
                             <div class="row">
 
-                                <div class="col-sm-6">
+                                <div class="col-sm-6 pull-right">
 
-                                    <h5>هنوز ثبت نام نکرده اید؟ از اینجا ثبت نام کنید .</h5>
-
-                                    <div class="btn-facebook-sign-iu">
-                                        <a href="">
-                                            <img src="{{url('assets/img/facebook.png')}}" alt="">
-                                            <i>ورود از Facebook</i>
-                                            <div class="clearfix"></div>
-                                        </a>
-                                    </div>
-
-                                    <div class="btn-google-sign-iu">
-                                        <a href="">
-                                            <img src="{{url('assets/img/gplus.png')}}" alt="">
-                                            <i>ورود از Google</i>
-                                            <div class="clearfix"></div>
-                                        </a>
-                                    </div>
-
-                                    <hr>
-
-                                    <h5>رمز عبورتان را فراموش کرده اید؟</h5>
-
-                                    <p>برای بازیابی رمز عبور اینجا کلیک کنید.</p>
-
-                                </div>
-                                <div class="col-sm-6">
+                                    <div class="page-title">
+                                        <h1>وارد شوید</h1>
+                                    </div><!-- /.page-title -->
 
                                     <h5>وارد حساب کاربری خود شوید</h5>
 
-                                    <form method="post" action="http://preview.byaviators.com/template/superlist/login.html?">
+                                    <form method="post" action="{{url('login')}}">
                                         <div class="form-group">
-                                            <label for="login-form-email">ایمیل یا شماره تلفن همراه</label>
-                                            <input type="email" class="form-control" name="email" id="login-form-email">
+                                            <label for="login-form-email">شماره تلفن همراه</label>
+                                            <input type="text" class="form-control" name="email" id="login-form-email">
                                         </div><!-- /.form-group -->
 
                                         <div class="form-group">
