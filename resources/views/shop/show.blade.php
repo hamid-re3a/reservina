@@ -87,7 +87,22 @@
                                         </a>
                                     </li>
                                 </ul>
-                            </div><!-- /.detail-gallery -->
+                            </div>
+                            <!-- /.detail-gallery -->
+
+                            <h2>پرسنل</h2>
+                            <div class="background-white p20">
+
+                                @foreach($shop->personnel as $personnel)
+                                <div class="user user-lg">
+                                    <a href="#"><img src="http://server.reservina.ir{{$personnel->profile_pic}}" alt=""></a>
+                                    <p style="text-align: center">
+                                        <span>{{$personnel->first_name.' '.$personnel->last_name}}</span>
+                                    </p>
+                                </div>
+                                @endforeach
+
+                            </div>
 
                             <h2>ما اینجا هستیم !</h2>
                             <div class="background-white p20">
@@ -134,11 +149,71 @@
                                 </div>
                             </div>
 
+                        </div><!-- /.col-sm-7 -->
+
+                        <div class="col-sm-5">
+
+                            <div class="background-white p20">
+                                <div class="detail-overview-hearts">
+                                    <i class="fa fa-heart"></i> <strong>213 </strong>دنبال کننده
+                                </div>
+                                <div class="detail-overview-rating">
+                                    <i class="fa fa-star"></i> <strong>4.3 / 5 </strong>از <a href="#reviews">316 رای</a>
+                                </div>
+
+                            </div>
+
+                            <h2>درباره آرایشگاه</h2>
+                            <div class="background-white p20">
+                                <div class="detail-vcard">
+                                    <div class="detail-logo">
+                                        <img src="/assets/img/tmp/pragmaticmates-logo.png">
+                                    </div><!-- /.detail-logo -->
+
+                                    <div class="detail-contact">
+                                        <div class="detail-contact-email">
+                                            <i class="fa fa-envelope-o"></i> <a href="mailto:#">{{$shop->work_mail}}‌</a>
+                                        </div>
+                                        <div class="detail-contact-phone">
+                                            <i class="fa fa-mobile-phone"></i> <a href="tel:#">{{$shop->cell_phone}}‌</a>
+                                        </div>
+                                        <div class="detail-contact-website">
+                                            <i class="fa fa-globe"></i> <a href="#">{{$shop->website}}‌</a>
+                                        </div>
+                                        <div class="detail-contact-address">
+                                            <i class="fa fa-map-o"></i>
+                                            <br>
+                                            {{$shop->work_address}}‌
+                                        </div>
+                                    </div><!-- /.detail-contact -->
+                                </div><!-- /.detail-vcard -->
+
+                                <div class="detail-description">
+                                    <p>{{$shop->work_desc}}</p>
+                                </div>
+
+                                <div class="detail-follow">
+                                    <h5>ما را دنبال کنید:</h5>
+                                    <div class="follow-wrapper">
+                                        <a class="follow-btn facebook" href="#"><i class="fa fa-facebook"></i></a>
+                                        <a class="follow-btn youtube" href="#"><i class="fa fa-youtube"></i></a>
+                                        <a class="follow-btn twitter" href="#"><i class="fa fa-twitter"></i></a>
+                                        <a class="follow-btn tripadvisor" href="#"><i class="fa fa-tripadvisor"></i></a>
+                                        <a class="follow-btn google-plus" href="#"><i class="fa fa-google-plus"></i></a>
+                                    </div><!-- /.follow-wrapper -->
+                                </div><!-- /.detail-follow -->
+                            </div>
+
+
+                        </div><!-- /.col-sm-5 -->
+
+                        <div class="col-sm-12">
+
                             <h2 id="reviews">نظرات</h2>
                             <div class="reviews">
                                 <div class="review">
                                     <div class="review-image">
-                                        <img src="assets/img/tmp/agent-1.jpg" alt="">
+                                        <img src="/assets/img/tmp/agent-1.jpg" alt="">
                                     </div><!-- /.review-image -->
 
                                     <div class="review-inner">
@@ -200,65 +275,6 @@
 
                             </div><!-- /.reviews -->
 
-                        </div><!-- /.col-sm-7 -->
-
-                        <div class="col-sm-5">
-
-                            <div class="background-white p20">
-                                <div class="detail-overview-hearts">
-                                    <i class="fa fa-heart"></i> <strong>213 </strong>دنبال کننده
-                                </div>
-                                <div class="detail-overview-rating">
-                                    <i class="fa fa-star"></i> <strong>4.3 / 5 </strong>از <a href="#reviews">316 رای</a>
-                                </div>
-
-                            </div>
-
-                            <h2>درباره آرایشگاه</h2>
-                            <div class="background-white p20">
-                                <div class="detail-vcard">
-                                    <div class="detail-logo">
-                                        <img src="/assets/img/tmp/pragmaticmates-logo.png">
-                                    </div><!-- /.detail-logo -->
-
-                                    <div class="detail-contact">
-                                        <div class="detail-contact-email">
-                                            <i class="fa fa-envelope-o"></i> <a href="mailto:#">{{$shop->work_mail}}‌</a>
-                                        </div>
-                                        <div class="detail-contact-phone">
-                                            <i class="fa fa-mobile-phone"></i> <a href="tel:#">{{$shop->cell_phone}}‌</a>
-                                        </div>
-                                        <div class="detail-contact-website">
-                                            <i class="fa fa-globe"></i> <a href="#">{{$shop->website}}‌</a>
-                                        </div>
-                                        <div class="detail-contact-address">
-                                            <i class="fa fa-map-o"></i>
-                                            <br>
-                                            {{$shop->work_address}}‌
-                                        </div>
-                                    </div><!-- /.detail-contact -->
-                                </div><!-- /.detail-vcard -->
-
-                                <div class="detail-description">
-                                    <p>{{$shop->work_desc}}</p>
-                                </div>
-
-                                <div class="detail-follow">
-                                    <h5>ما را دنبال کنید:</h5>
-                                    <div class="follow-wrapper">
-                                        <a class="follow-btn facebook" href="#"><i class="fa fa-facebook"></i></a>
-                                        <a class="follow-btn youtube" href="#"><i class="fa fa-youtube"></i></a>
-                                        <a class="follow-btn twitter" href="#"><i class="fa fa-twitter"></i></a>
-                                        <a class="follow-btn tripadvisor" href="#"><i class="fa fa-tripadvisor"></i></a>
-                                        <a class="follow-btn google-plus" href="#"><i class="fa fa-google-plus"></i></a>
-                                    </div><!-- /.follow-wrapper -->
-                                </div><!-- /.detail-follow -->
-                            </div>
-
-
-                        </div><!-- /.col-sm-5 -->
-
-                        <div class="col-sm-12">
                             <h2>نظر بدهید</h2>
 
                             <form class="background-white p20 add-review" method="post" action="http://preview.byaviators.com/template/superlist/listing-detail.html?">

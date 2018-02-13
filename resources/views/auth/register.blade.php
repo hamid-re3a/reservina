@@ -18,20 +18,28 @@
 
                                     <h5>وارد حساب کاربری خود شوید</h5>
 
-                                    <form method="post" action="{{url('register')}}">
+                                    <form id="register" method="post" action="{{url('register')}}">
                                         <div class="form-group">
                                             <label for="register-form-email">شماره تلفن همراه</label>
-                                            <input type="text" class="form-control" name="email" id="register-form-email" required>
+                                            <input type="text" class="form-control" name="email" id="email" required>
+                                        </div><!-- /.form-group -->
+
+                                        <div class="form-group">
+                                            <label for="register-form-password">جنسیت</label>
+                                            <select name="gender" id="gender">
+                                                <option value="0">زن</option>
+                                                <option value="1">مرد</option>
+                                            </select>
                                         </div><!-- /.form-group -->
 
                                         <div class="form-group">
                                             <label for="register-form-name">رمز عبور</label>
-                                            <input type="password" class="form-control" name="password" id="register-form-name" required>
+                                            <input type="password" class="form-control" name="password" id="password" required>
                                         </div><!-- /.form-group -->
 
                                         <div class="form-group">
                                             <label for="register-form-password">تکرار رمز عبور</label>
-                                            <input type="password" class="form-control" name="password-confirmation" id="register-form-password" required>
+                                            <input type="password" class="form-control" name="password_confirmation" id="password_confirmation" required>
                                         </div><!-- /.form-group -->
 
                                         <div class="row">
@@ -55,6 +63,10 @@
 
                         </div><!-- /.col-sm-4 -->
                     </div><!-- /.row -->
+
+                    <div class="row">
+                        <div id="error"></div>
+                    </div>
 
                 </div><!-- /.content -->
             </div><!-- /.container -->

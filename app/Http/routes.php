@@ -17,17 +17,17 @@ Route::get('/', function () {
 
 Route::get('contact', function () {
     return view('contact');
-});
+})->middleware('auth');
 
 Route::get('faq', function () {
     return view('faq');
 });
-
 Route::get('login','AuthController@showLoginForm');
 Route::post('login','AuthController@login');
 Route::get('register','AuthController@showRegistrationForm');
 Route::post('register','AuthController@register');
 Route::get('register-business','AuthController@registerBusiness');
+Route::get('logout','AuthController@logout');
 
 Route::get('search','ShopController@index');
 Route::get('shop/{id}','ShopController@show');

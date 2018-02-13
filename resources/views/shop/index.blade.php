@@ -84,15 +84,9 @@
 
                     <div class="pager">
                         <ul>
-                            @if($shops->prev_page_url)
-                            <li><a href="#">قبلی</a></li>
-                            <li><a href="#">{{$shops->current_page-1}}</a></li>
-                            @endif
-                            <li class="active"><a>{{$shops->current_page}}</a></li>
-                            <li><a href="#">{{$shops->current_page+1}}</a></li>
-                            @if($shops->next_page_url)
-                            <li><a href="#">بعدی</a></li>
-                            @endif
+                            @if($shops->current_page > 1)<li><a href="?page={{$shops->current_page - 1}}">قبلی</a></li>@endif
+                            <li><a href="?page={{$shops->current_page}}">{{$shops->current_page}}</a></li>
+                            @if($shops->current_page < $shops->last_page)<li><a href="?page={{$shops->current_page + 1}}">بعدی</a></li>@endif
                         </ul>
                     </div><!-- /.pagination -->
 

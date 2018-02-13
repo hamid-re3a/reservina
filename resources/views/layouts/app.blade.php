@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 
-    <link href="http://fonts.googleapis.com/css?family=Nunito:300,400,700" rel="stylesheet" type="text/css">
+    {{--<link href="http://fonts.googleapis.com/css?family=Nunito:300,400,700" rel="stylesheet" type="text/css">--}}
     <link href="/assets/libraries/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="/assets/libraries/owl.carousel/assets/owl.carousel.css" rel="stylesheet" type="text/css" >
     <link href="/assets/libraries/colorbox/example1/colorbox.css" rel="stylesheet" type="text/css" >
@@ -33,8 +33,12 @@
                         <div class="header-top">
 
                             <ul class="header-nav-secondary nav nav-pills">
+                                @if(Auth::check())
+                                    <li>{{Auth::user()}}</li>
+                                @else
                                 <li><a href="{{url('login')}}">ورود</a></li>
                                 <li><a href="{{url('register')}}">ثبت نام</a></li>
+                                @endif
                             </ul>
                         </div><!-- /.header-top -->
 
@@ -230,6 +234,9 @@
 <script type="text/javascript" src="/assets/libraries/bootstrap-fileinput/fileinput.min.js"></script>
 
 <script src="/assets/js/superlist.js" type="text/javascript"></script>
+<script src="/assets/js/app.js" type="text/javascript"></script>
+
+@yield('script')
 
 </body>
 </html>

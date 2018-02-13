@@ -9,7 +9,11 @@ use App\Http\Requests;
 class ShopController extends Controller
 {
     public function index(){
-        $url = "http://server.reservina.ir/shops?page=1";
+        if(request()->has('page'))
+            $page = request('page');
+        else
+            $page = 1;
+        $url = "http://server.reservina.ir/shops?page=$page";
         $data = json_decode(file_get_contents($url));
         if($data->result_code == 200){
             $shops = $data->data;

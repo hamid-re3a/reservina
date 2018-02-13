@@ -17,15 +17,15 @@
 
                                     <h5>وارد حساب کاربری خود شوید</h5>
 
-                                    <form method="post" action="{{url('login')}}">
+                                    <form method="post" action="{{url('login')}}" id="login">
                                         <div class="form-group">
                                             <label for="login-form-email">شماره تلفن همراه</label>
-                                            <input type="text" class="form-control" name="email" id="login-form-email">
+                                            <input type="text" class="form-control" name="username" id="username">
                                         </div><!-- /.form-group -->
 
                                         <div class="form-group">
                                             <label for="login-form-password">رمز عبور</label>
-                                            <input type="password" class="form-control" name="password" id="login-form-password">
+                                            <input type="password" class="form-control" name="password" id="password">
                                         </div><!-- /.form-group -->
 
                                         <div class="row">
