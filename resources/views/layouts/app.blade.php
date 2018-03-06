@@ -6,17 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 
-    {{--<link href="http://fonts.googleapis.com/css?family=Nunito:300,400,700" rel="stylesheet" type="text/css">--}}
-    <link href="/assets/libraries/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="/assets/libraries/owl.carousel/assets/owl.carousel.css" rel="stylesheet" type="text/css" >
-    <link href="/assets/libraries/colorbox/example1/colorbox.css" rel="stylesheet" type="text/css" >
-    <link href="/assets/libraries/bootstrap-select/bootstrap-select.min.css" rel="stylesheet" type="text/css">
-    <link href="/assets/libraries/bootstrap-fileinput/fileinput.min.css" rel="stylesheet" type="text/css">
-    <link href="/assets/css/superlist.css" rel="stylesheet" type="text/css" >
-
-    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.png">
-
     <title>رزروینا - سیستم مدیریت رزرو آنلاین</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="{{url('favicon.ico')}}">
+
+    <link href="{{url('plugins/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet" type="text/css">
+    <link href="{{url('plugins/owl.carousel/assets/owl.carousel.css')}}" rel="stylesheet" type="text/css" >
+    <link href="{{url('plugins/colorbox/colorbox.css')}}" rel="stylesheet" type="text/css" >
+    <link href="{{url('plugins/bootstrap-select/bootstrap-select.min.css')}}" rel="stylesheet" type="text/css">
+    <link href="{{url('plugins/bootstrap-fileinput/fileinput.min.css')}}" rel="stylesheet" type="text/css">
+    <link href="{{url('dist/css/superlist.css')}}" rel="stylesheet" type="text/css" >
 </head>
 
 
@@ -34,7 +33,8 @@
 
                             <ul class="header-nav-secondary nav nav-pills">
                                 @if(Auth::check())
-                                    <li>{{Auth::user()}}</li>
+                                    {{--<li>{{Auth::user()->id}}</li>--}}
+                                    <li><a href="{{url('logout')}}">خروج</a></li>
                                 @else
                                 <li><a href="{{url('login')}}">ورود</a></li>
                                 <li><a href="{{url('register')}}">ثبت نام</a></li>
@@ -79,8 +79,8 @@
                     </div><!-- /.header-content -->
 
                     <div class="header-logo">
-                        <a href="index-2.html">
-                            <img src="/assets/img/logo.png" alt="Logo">
+                        <a href="{{url('/')}}">
+                            <img src="{{url('dist/img/logo.png')}}" alt="Logo">
 
                         </a>
                     </div><!-- /.header-logo -->
@@ -98,11 +98,12 @@
         <div class="footer-top">
             <div class="container">
                 <div class="row">
+
                     <div class="col-sm-3">
                         <h2>لورم ایپسوم یا طرح‌نما</h2>
 
                         <p>لورم ایپسوم یا طرح‌نما به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد</p>
-                    </div><!-- /.col-* -->
+                    </div>
 
                     <div class="col-sm-3">
                         <h2>پر بازدیدترین ها</h2>
@@ -112,55 +113,16 @@
                                 <img src="/assets/img/thumbsgallery/thumbs/image01.jpg" alt="image1.jpg">
                                 <i style="opacity: 0;"></i>
                             </a>
-                            <a class="thumbBox" rel="lightbox-thumbs" href="/assets/img/thumbsgallery/image02.jpg">
-                                <img src="/assets/img/thumbsgallery/thumbs/image02.jpg" alt="image2.jpg">
-                                <i style="opacity: 0;"></i>
-                            </a>
-                            <a class="thumbBox" rel="lightbox-thumbs" href="/assets/img/thumbsgallery/image03.jpg">
-                                <img src="/assets/img/thumbsgallery/thumbs/image03.jpg" alt="image3.jpg">
-                                <i style="opacity: 0;"></i>
-                            </a>
-                            <a class="thumbBox" rel="lightbox-thumbs" href="/assets/img/thumbsgallery/image04.jpg">
-                                <img src="/assets/img/thumbsgallery/thumbs/image04.jpg" alt="image4.jpg">
-                                <i style="opacity: 0;"></i>
-                            </a>
-                            <a class="thumbBox" rel="lightbox-thumbs" href="/assets/img/thumbsgallery/image04.jpg">
-                                <img src="/assets/img/thumbsgallery/thumbs/image05.jpg" alt="image5.jpg">
-                                <i style="opacity: 0;"></i>
-                            </a>
-                            <a class="thumbBox" rel="lightbox-thumbs" href="/assets/img/thumbsgallery/image06.jpg">
-                                <img src="/assets/img/thumbsgallery/thumbs/image06.jpg" alt="image6.jpg">
-                                <i style="opacity: 0;"></i>
-                            </a>
-                            <a class="thumbBox" rel="lightbox-thumbs" href="/assets/img/thumbsgallery/image07.jpg">
-                                <img src="/assets/img/thumbsgallery/thumbs/image07.jpg" alt="image7.jpg">
-                                <i style="opacity: 0;"></i>
-                            </a>
-                            <a class="thumbBox" rel="lightbox-thumbs" href="/assets/img/thumbsgallery/image08.jpg">
-                                <img src="/assets/img/thumbsgallery/thumbs/image08.jpg" alt="image8.jpg">
-                                <i style="opacity: 0;"></i>
-                            </a>
-                            <a class="thumbBox" rel="lightbox-thumbs" href="/assets/img/thumbsgallery/image09.jpg">
-                                <img src="/assets/img/thumbsgallery/thumbs/image09.jpg" alt="image9.jpg">
-                                <i style="opacity: 0;"></i>
-                            </a>
                         </div>
                         <div class="clearfix"></div>
 
-                    </div><!-- /.col-* -->
+                    </div>
 
                     <div class="col-sm-3">
                         <h2>اطلاعات تماس</h2>
+                        <p> شماره تلفن : 57-72-938-0936<br>ایمیل : <a href="#">info@reservina.ir</a></p>
 
-                        <p>
-                            شماره تلفن : 57-72-938-0936<br>
-                            ایمیل : <a href="#">info@reservina.ir</a>
-                        </p>
-
-                        <p>
-                            ما را در شبکه های اجتماعی دنبال کنید
-                        </p>
-
+                        <p>ما را در شبکه های اجتماعی دنبال کنید</p>
                         <ul class="social-links nav nav-pills">
                             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -168,9 +130,9 @@
                             <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                             <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
                             <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                        </ul><!-- /.header-nav-social -->
+                        </ul>
 
-                    </div><!-- /.col-* -->
+                    </div>
 
                     <div class="col-sm-3">
                         <h2>رزروینا</h2>
@@ -181,16 +143,14 @@
                             <li><a href="{{url('faq')}}">آرایشگاهتان را به کاربران نشان دهید.</a></li>
                         </ul>
                         
-                    </div><!-- /.col-* -->
+                    </div>
                 </div><!-- /.row -->
             </div><!-- /.container -->
         </div><!-- /.footer-top -->
 
         <div class="footer-bottom">
             <div class="container">
-                <div class="footer-bottom-left">
-                    این وبسایت کُلِش ماس ماس.
-                </div><!-- /.footer-bottom-left -->
+                <div class="footer-bottom-left">این وبسایت کُلِش ماس ماس.</div>
 
                 <div class="footer-bottom-right">
                     <ul class="nav nav-pills">
@@ -206,35 +166,18 @@
 
 </div><!-- /.page-wrapper -->
 
-<script src="/assets/js/jquery.js" type="text/javascript"></script>
-<script src="/assets/js/map.js" type="text/javascript"></script>
+<script src="{{url('plugins/jquery/jquery.js')}}" type="text/javascript"></script>
+<script src="{{url('plugins/bootstrap/bootstrap.min.js')}}"></script>
+<script src="{{url('plugins/moment/moment.min.js')}}" type="text/javascript"></script>
+<script src="{{url('plugins/colorbox/jquery.colorbox-min.js')}}" type="text/javascript"></script>
+<script src="{{url('plugins/flot/jquery.flot.min.js')}}" type="text/javascript"></script>
+<script src="{{url('plugins/flot/jquery.flot.spline.js')}}" type="text/javascript"></script>
+<script src="{{url('plugins/bootstrap-select/bootstrap-select.min.js')}}" type="text/javascript"></script>
+<script src="{{url('plugins/owl.carousel/owl.carousel.js')}}" type="text/javascript"></script>
+<script src="{{url('plugins/bootstrap-fileinput/fileinput.min.js')}}" type="text/javascript"></script>
 
-<script src="/assets/libraries/bootstrap-sass/javascripts/bootstrap/collapse.js" type="text/javascript"></script>
-<script src="/assets/libraries/bootstrap-sass/javascripts/bootstrap/carousel.js" type="text/javascript"></script>
-<script src="/assets/libraries/bootstrap-sass/javascripts/bootstrap/transition.js" type="text/javascript"></script>
-<script src="/assets/libraries/bootstrap-sass/javascripts/bootstrap/dropdown.js" type="text/javascript"></script>
-<script src="/assets/libraries/bootstrap-sass/javascripts/bootstrap/tooltip.js" type="text/javascript"></script>
-<script src="/assets/libraries/bootstrap-sass/javascripts/bootstrap/tab.js" type="text/javascript"></script>
-<script src="/assets/libraries/bootstrap-sass/javascripts/bootstrap/alert.js" type="text/javascript"></script>
-
-<script src="/assets/libraries/colorbox/jquery.colorbox-min.js" type="text/javascript"></script>
-
-<script src="/assets/libraries/flot/jquery.flot.min.js" type="text/javascript"></script>
-<script src="/assets/libraries/flot/jquery.flot.spline.js" type="text/javascript"></script>
-
-<script src="/assets/libraries/bootstrap-select/bootstrap-select.min.js" type="text/javascript"></script>
-
-<script src="http://maps.googleapis.com/maps/api/js?libraries=weather,geometry,visualization,places,drawing" type="text/javascript"></script>
-
-<script type="text/javascript" src="/assets/libraries/jquery-google-map/infobox.js"></script>
-<script type="text/javascript" src="/assets/libraries/jquery-google-map/markerclusterer.js"></script>
-<script type="text/javascript" src="/assets/libraries/jquery-google-map/jquery-google-map.js"></script>
-
-<script type="text/javascript" src="/assets/libraries/owl.carousel/owl.carousel.js"></script>
-<script type="text/javascript" src="/assets/libraries/bootstrap-fileinput/fileinput.min.js"></script>
-
-<script src="/assets/js/superlist.js" type="text/javascript"></script>
-<script src="/assets/js/app.js" type="text/javascript"></script>
+<script src="{{url('dist/js/superlist.js')}}" type="text/javascript"></script>
+<script src="{{url('dist/js/app.js')}}" type="text/javascript"></script>
 
 @yield('script')
 

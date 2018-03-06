@@ -18,7 +18,7 @@
                                 </div>
                             </div><!-- /.widget -->
 
-                            <div class="widget">
+                           {{-- <div class="widget">
                                 <h2 class="widgettitle">مطالب دیگر</h2>
 
                                 <div class="cards-small">
@@ -36,7 +36,7 @@
                                     </div><!-- /.card-small -->
                                 </div><!-- /.cards-small -->
 
-                            </div><!-- /.widget -->
+                            </div><!-- /.widget -->--}}
 
                         </div><!-- /.sidebar -->
                     </div><!-- /.col-* -->
@@ -53,18 +53,15 @@
                                 <div class="post">
                                     <div class="post-image">
                                         <img src="http://server.reservina.ir{{$article->image}}" alt="A Clockwork Origin">
-                                        <a class="read-more" href="{{url('blog/post/'.$article->id)}}">نمایش</a>
                                     </div><!-- /.post-image -->
 
                                     <div class="post-content">
-                                        <h2><a href="{{url('blog/post/'.$article->id)}}">{{$article->title}}</a></h2>
-                                        <p>{{str_limit(preg_replace('/\s+/', ' ', strip_tags($article->fulltext)),300)}}</p>
+                                        <p>{!! $article->fulltext !!}</p>
                                     </div><!-- /.post-content -->
 
                                     <div class="post-meta clearfix">
                                         <div class="post-meta-date">{{$article->published_at}}</div><!-- /.post-meta-date -->
                                         <div class="post-meta-categories"><i class="fa fa-tags"></i> <a href="{{url('blog-detail')}}">رستوران</a></div><!-- /.post-meta-categories -->
-                                        <div class="post-meta-more"><a href="{{url('blog/post/'.$article->id)}}">ادامه مطلب <i class="fa fa-chevron-left"></i></a></div><!-- /.post-meta-more -->
                                     </div><!-- /.post-meta -->
                                 </div><!-- /.post -->
                                 @endforeach

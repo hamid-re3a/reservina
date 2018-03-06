@@ -17,6 +17,12 @@
 
                                     <h5>وارد حساب کاربری خود شوید</h5>
 
+                                    @if($errors->any())
+                                        <div class="alert alert-danger">
+                                            {{$errors->first()}}
+                                        </div>
+                                    @endif
+
                                     <form method="post" action="{{url('login')}}" id="login">
                                         <div class="form-group">
                                             <label for="login-form-email">شماره تلفن همراه</label>
@@ -34,7 +40,7 @@
                                             </div>
                                             <div class="col-sm-6 pull-left">
                                                 <div class="checkbox">
-                                                    <input type="checkbox" id="remember">
+                                                    <input type="checkbox" id="remember" name="remember">
                                                     <label for="remember">مرا بخاطر بسپار</label>
                                                 </div>
                                             </div>

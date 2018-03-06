@@ -7,7 +7,7 @@
             <div class="content">
                 <div class="mt-80">
                     <div class="hero-image">
-                        <div class="hero-image-inner" style="background-image: url('assets/img/tmp/slider-large-4.jpg');">
+                        <div class="hero-image-inner" style="background-image: url('{{url('dist/img/slider.jpg')}}');">
                             <div class="hero-image-content">
                                 <div class="container">
                                     <h1>به رزروینا خوش آمدید</h1>
@@ -22,7 +22,7 @@
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-sm-4 col-lg-4">
-                                            <form method="get" action="http://preview.byaviators.com/template/superlist/index-image.html?">
+                                            <form method="get" action="{{url('search')}}">
                                                 <h2>جستجو کنید</h2>
 
                                                 <div class="hero-image-keyword form-group">

@@ -17,7 +17,7 @@ Route::get('/', function () {
 
 Route::get('contact', function () {
     return view('contact');
-})->middleware('auth');
+});
 
 Route::get('faq', function () {
     return view('faq');
@@ -31,6 +31,7 @@ Route::get('logout','AuthController@logout');
 
 Route::get('search','ShopController@index');
 Route::get('shop/{id}','ShopController@show');
+Route::get('update-time/{personnel_id}','ShopController@updateTime');
 
 Route::get('blog','ArticleController@index');
 Route::get('blog/post/{id}','ArticleController@show');

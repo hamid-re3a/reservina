@@ -4,7 +4,7 @@
         <div class="main-inner">
             <div class="content">
                 <div class="mt-80 mb80">
-                    <div class="detail-banner" style="background-image: url(/assets/img/tmp/slider-large-4.jpg);">
+                    <div class="detail-banner" style="background-image: url('{{url('dist/img/default-banner.jpg')}}');">
                         <div class="container">
                             <div class="detail-banner-left">
                                 <h2 class="detail-title">{{$shop->alias}}</h2>
@@ -19,156 +19,32 @@
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star-half-o"></i>
-                                </div><!-- /.detail-banner-rating -->
+                                </div>
 
-                                <div class="detail-banner-btn bookmark">
-                                    <i class="fa fa-bookmark-o"></i> <span data-toggle="Bookmarked">نشان کردن</span>
-                                </div><!-- /.detail-claim -->
-
-                                <div class="detail-banner-btn heart">
-                                    <i class="fa fa-heart-o"></i> <span data-toggle="I Love It">دنبال کردن</span>
-                                </div><!-- /.detail-claim -->
-
-                            </div><!-- /.detail-banner-left -->
-                        </div><!-- /.container -->
-                    </div><!-- /.detail-banner -->
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
 
                 <div class="container">
                     <div class="row detail-content">
                         <div class="col-sm-7">
-                            <div class="detail-gallery">
-                                <div class="detail-gallery-preview">
-                                    <a href="/assets/img/tmp/gallery-1.jpg">
-                                        <img src="/assets/img/tmp/gallery-1.jpg">
-                                    </a>
-                                </div>
-
-                                <ul class="detail-gallery-index">
-                                    <li class="detail-gallery-list-item active">
-                                        <a data-target="/assets/img/tmp/gallery-1.jpg">
-                                            <img src="/assets/img/tmp/gallery-1.jpg" alt="...">
-                                        </a>
-                                    </li>
-                                    <li class="detail-gallery-list-item active">
-                                        <a data-target="/assets/img/tmp/gallery-2.jpg">
-                                            <img src="/assets/img/tmp/gallery-2.jpg" alt="...">
-                                        </a>
-                                    </li>
-                                    <li class="detail-gallery-list-item active">
-                                        <a data-target="assets/img/tmp/gallery-3.jpg">
-                                            <img src="/assets/img/tmp/gallery-3.jpg" alt="...">
-                                        </a>
-                                    </li>
-                                    <li class="detail-gallery-list-item active">
-                                        <a data-target="/assets/img/tmp/gallery-4.jpg">
-                                            <img src="/assets/img/tmp/gallery-4.jpg" alt="...">
-                                        </a>
-                                    </li>
-                                    <li class="detail-gallery-list-item active">
-                                        <a data-target="/assets/img/tmp/gallery-5.jpg">
-                                            <img src="/assets/img/tmp/gallery-5.jpg" alt="...">
-                                        </a>
-                                    </li>
-                                    <li class="detail-gallery-list-item active">
-                                        <a data-target="/assets/img/tmp/gallery-6.jpg">
-                                            <img src="/assets/img/tmp/gallery-6.jpg" alt="...">
-                                        </a>
-                                    </li>
-                                    <li class="detail-gallery-list-item active">
-                                        <a data-target="/assets/img/tmp/gallery-7.jpg">
-                                            <img src="/assets/img/tmp/gallery-7.jpg" alt="...">
-                                        </a>
-                                    </li>
-                                    <li class="detail-gallery-list-item active">
-                                        <a data-target="/assets/img/tmp/gallery-8.jpg">
-                                            <img src="/assets/img/tmp/gallery-8.jpg" alt="...">
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <!-- /.detail-gallery -->
-
-                            <h2>پرسنل</h2>
-                            <div class="background-white p20">
-
-                                @foreach($shop->personnel as $personnel)
-                                <div class="user user-lg">
-                                    <a href="#"><img src="http://server.reservina.ir{{$personnel->profile_pic}}" alt=""></a>
-                                    <p style="text-align: center">
-                                        <span>{{$personnel->first_name.' '.$personnel->last_name}}</span>
-                                    </p>
-                                </div>
-                                @endforeach
-
-                            </div>
 
                             <h2>ما اینجا هستیم !</h2>
                             <div class="background-white p20">
-
-                                <!-- Nav tabs -->
-                                <ul id="listing-detail-location" class="nav nav-tabs" role="tablist">
-                                    <li role="presentation" class="active">
-                                        <a href="#simple-map-panel" aria-controls="simple-map-panel" role="tab" data-toggle="tab">
-                                            <i class="fa fa-map"></i>Map
-                                        </a>
-                                    </li>
-                                    <li role="presentation">
-                                        <a href="#street-view-panel" aria-controls="street-view-panel" role="tab" data-toggle="tab">
-                                            <i class="fa fa-street-view"></i>Street View
-                                        </a>
-                                    </li>
-                                </ul>
-
-                                <!-- Tab panes -->
-                                <div class="tab-content">
-                                    <div role="tabpanel" class="tab-pane fade in active" id="simple-map-panel">
-                                        <div class="detail-map">
-                                            <div class="map-position">
-                                                <div id="listing-detail-map"
-                                                     data-transparent-marker-image="assets/img/transparent-marker-image.png"
-                                                     data-styles='[{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#444444"}]},{"featureType":"landscape","elementType":"all","stylers":[{"color":"#f2f2f2"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"poi.government","elementType":"labels.text.fill","stylers":[{"color":"#b43b3b"}]},{"featureType":"poi.park","elementType":"geometry.fill","stylers":[{"hue":"#ff0000"}]},{"featureType":"road","elementType":"all","stylers":[{"saturation":-100},{"lightness":45}]},{"featureType":"road","elementType":"geometry.fill","stylers":[{"lightness":"8"},{"color":"#bcbec0"}]},{"featureType":"road","elementType":"labels.text.fill","stylers":[{"color":"#5b5b5b"}]},{"featureType":"road.highway","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#7cb3c9"},{"visibility":"on"}]},{"featureType":"water","elementType":"geometry.fill","stylers":[{"color":"#abb9c0"}]},{"featureType":"water","elementType":"labels.text","stylers":[{"color":"#fff1f1"},{"visibility":"off"}]}]'
-                                                     data-zoom="15"
-                                                     data-latitude="40.779995"
-                                                     data-longitude="-73.969133"
-                                                     data-icon="fa fa-coffee">
-                                                </div><!-- /#map-property -->
-                                            </div><!-- /.map-property -->
-                                        </div><!-- /.detail-map -->
-                                    </div>
-                                    <div role="tabpanel" class="tab-pane fade" id="street-view-panel">
-                                        <div id="listing-detail-street-view"
-                                             data-latitude="40.758896"
-                                             data-longitude="-73.985135"
-                                             data-heading="225"
-                                             data-pitch="0"
-                                             data-zoom="1">
-                                        </div>
-                                    </div>
-                                </div>
+                                <div id="map" style="height: 300px"></div>
                             </div>
 
-                        </div><!-- /.col-sm-7 -->
+                        </div>
 
                         <div class="col-sm-5">
-
-                            <div class="background-white p20">
-                                <div class="detail-overview-hearts">
-                                    <i class="fa fa-heart"></i> <strong>213 </strong>دنبال کننده
-                                </div>
-                                <div class="detail-overview-rating">
-                                    <i class="fa fa-star"></i> <strong>4.3 / 5 </strong>از <a href="#reviews">316 رای</a>
-                                </div>
-
-                            </div>
-
                             <h2>درباره آرایشگاه</h2>
                             <div class="background-white p20">
                                 <div class="detail-vcard">
                                     <div class="detail-logo">
-                                        <img src="/assets/img/tmp/pragmaticmates-logo.png">
-                                    </div><!-- /.detail-logo -->
+                                        <img src="" alt="logo">
+                                    </div>
 
                                     <div class="detail-contact">
                                         <div class="detail-contact-email">
@@ -185,27 +61,61 @@
                                             <br>
                                             {{$shop->work_address}}‌
                                         </div>
-                                    </div><!-- /.detail-contact -->
-                                </div><!-- /.detail-vcard -->
+                                    </div>
+                                </div>
 
+                                @if($shop->work_desc)
                                 <div class="detail-description">
                                     <p>{{$shop->work_desc}}</p>
                                 </div>
+                                @endif
 
-                                <div class="detail-follow">
-                                    <h5>ما را دنبال کنید:</h5>
-                                    <div class="follow-wrapper">
-                                        <a class="follow-btn facebook" href="#"><i class="fa fa-facebook"></i></a>
-                                        <a class="follow-btn youtube" href="#"><i class="fa fa-youtube"></i></a>
-                                        <a class="follow-btn twitter" href="#"><i class="fa fa-twitter"></i></a>
-                                        <a class="follow-btn tripadvisor" href="#"><i class="fa fa-tripadvisor"></i></a>
-                                        <a class="follow-btn google-plus" href="#"><i class="fa fa-google-plus"></i></a>
-                                    </div><!-- /.follow-wrapper -->
-                                </div><!-- /.detail-follow -->
                             </div>
 
+                        </div>
 
-                        </div><!-- /.col-sm-5 -->
+                        <div class="col-sm-12">
+                            <h2>پرسنل</h2>
+                            <div class="background-white p20">
+
+                                @foreach($shop->personnel as $personnel)
+                                    <div class="user user-lg">
+                                        <a href="#"><img src="http://server.reservina.ir{{$personnel->profile_pic}}" alt=""></a>
+                                        <p style="text-align: center">
+                                            <span>{{$personnel->first_name.' '.$personnel->last_name}}</span>
+                                        </p>
+                                    </div>
+                                @endforeach
+
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12">
+                            <h2>خدمات</h2>
+                            <div class="background-white p20">
+                                @foreach($services as $service)
+                                    <form action="" class="form-inline form-services">
+                                        <label>{{$service->service_name}}</label>
+                                        <div class="form-group">
+                                            <select name="personnel_id" class="selectpicker" title="انتخاب آرایشگر">
+                                                <option value="{{$service->personnel_id}}">{{$service->personnel_name}}</option>
+                                            </select>
+                                            <input type="hidden" name="length_time" value="{{$service->length_time}}">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>قیمت : {{$service->service_price}}</label>
+                                        </div>
+                                        <div class="form-group">
+                                            <select name="date" title="انتخاب روز" class="selectpicker" disabled></select>
+                                        </div>
+                                        <div class="form-group">
+                                            <select name="hour" id="hour" title="انتخاب ساعت" class="selectpicker" disabled></select>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> رزرو</button>
+                                    </form>
+                                @endforeach
+                            </div>
+                        </div>
 
                         <div class="col-sm-12">
 
@@ -367,4 +277,61 @@
             </div><!-- /.content -->
         </div><!-- /.main-inner -->
     </div><!-- /.main -->
+@endsection
+@section('script')
+    <script type="text/javascript">
+
+        $('[name="personnel_id"]').on('changed.bs.select',function () {
+            getDate($(this).parents('form')[0]);
+        });
+
+        $('[name="date"]').on('changed.bs.select',function (e) {
+            getHour($(this).parents('form')[0]);
+        });
+
+        function getDate(form) {
+            var personnel_id = $(form).find('[name="personnel_id"]').val();
+            var length_time = $(form).find('[name="length_time"]').val();
+            var date = $(form).find('[name="date"]');
+            $.getJSON('http://server.reservina.ir/personnel_free_days?personnel_id='+personnel_id+'&time_length='+length_time, function (response) {
+                var data = response.data;
+                $.each(data, function () {
+                    $(form).find('[name="date"]').append('<option value="' + this.date + '">' + this.show_date + '</option>');
+                });
+                date.removeAttr('disabled');
+                date.selectpicker('refresh');
+            })
+        }
+
+        function getHour(form) {
+            var personnel_id = $(form).find('[name="personnel_id"]').val();
+            var length_time = $(form).find('[name="length_time"]').val();
+            var date = $(form).find('[name="date"]').val();
+            var hour = $(form).find('[name="hour"]');
+            $.getJSON('http://server.reservina.ir/personnel_free_hours?personnel_id='+personnel_id+'&time_length='+length_time+'&date='+date, function (response) {
+                var data = response.data;
+                $.each(data, function () {
+                    $(form).find('[name="hour"]').append('<option value="' + this.hour + '">' + this.hour + '</option>');
+                });
+                hour.removeAttr('disabled');
+                hour.selectpicker('refresh');
+            })
+        }
+
+        function initMap() {
+            var location = {lat: {{$shop->latitude}}, lng: {{$shop->longitude}}};
+            var mapOptions = {
+                center: location,
+                zoom: 14
+            };
+
+            var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+
+            var marker = new google.maps.Marker({
+                position: location,
+                map: map
+            });
+        }
+    </script>
+    <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAbXk8V3IyiNjS-vI-pTj3FpNQrw6SuCcM&callback=initMap" type="text/javascript"></script>
 @endsection
